@@ -1,0 +1,183 @@
+Package: plasma-desktop
+Version: 4:6.3.4-2+tjm1
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 7562
+Depends: accountsservice, breeze (>= 4:6.2.90~), kactivitymanagerd (>= 6.2.90~), kde-cli-tools (>= 4:6.2.90~), kded6, kio6, layer-shell-qt (>= 6.2.90~), ocean-sound-theme (>= 6.2.90~), oxygen-sounds (>= 4:6.2.90~), plasma-desktop-data (= 4:6.3.4-2+tjm1), plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace (>= 4:6.2.90~), polkit-kde-agent-1 (>= 4:6.2.90~), qml6-module-org-kde-activities, qml6-module-org-kde-baloo, qml6-module-org-kde-breeze, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-desktop, qml6-module-org-kde-draganddrop, qml6-module-org-kde-graphicaleffects, qml6-module-org-kde-iconthemes, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-delegates, qml6-module-org-kde-kirigamiaddons-tableview, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-newstuff, qml6-module-org-kde-pipewire, qml6-module-qt-labs-platform, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-svg-plugins, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.38), libcanberra0 (>= 0.2), libglib2.0-0t64 (>= 2.80.0), libibus-1.0-5 (>= 1.5.1), libicu76 (>= 76.1-1~), libkaccounts6-2 (>= 24.02.2), libkf6attica6 (>= 6.10.0~), libkf6authcore6 (>= 6.10.0~), libkf6baloo6 (>= 6.10.0~), libkf6bookmarks6 (>= 6.0.0), libkf6codecs6 (>= 6.10.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6guiaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nlocaledata6 (>= 6.10.0~), libkf6iconwidgets6 (>= 6.10.0~), libkf6itemviews6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6kiocore6 (>= 6.10.0~), libkf6kiofilewidgets6 (>= 6.10.0~), libkf6kiogui6 (>= 6.10.0~), libkf6kiowidgets6 (>= 6.10.0~), libkf6newstuffcore6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6notifyconfig6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6runner6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.10.0~), libkf6sonnetui6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.10.0~), libkworkspace6-6 (>= 4:6.3.4~), libnotificationmanager1 (>= 4:6.3.4~), libpackagekitqt6-1 (>= 1.1.1), libplasma6 (>= 6.3.4~), libplasmaactivities6 (>= 6.3.4~), libplasmaactivitiesstats1 (>= 6.3.4~), libplasmaquick6 (>= 6.3.4~), libprocesscore10 (>= 4:6.3.4~), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6quickwidgets6 (>= 6.7.0~), libqt6sql6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.2), libqt6xml6 (>= 6.7.0~), libsdl2-2.0-0 (>= 2.24.0), libstdc++6 (>= 13.1), libtaskmanager6 (>= 4:6.3.4~), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.22~), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcb-keysyms1 (>= 0.4.1), libxcb-xkb1, libxcb1, libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.99.4), libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxkbregistry0 (>= 1.0.0), qt6-base-private-abi (= 6.8.2)
+Recommends: bluedevil (>= 4:6.2.90~), breeze-gtk-theme (>= 6.2.90~), fonts-hack, fonts-noto, fonts-noto-color-emoji, ibus-data, kde-config-gtk-style (>= 4:6.2.90~), kde-config-screenlocker (>= 6.2.90~), kde-config-sddm (>= 4:6.2.90~), kde-spectacle, kde-style-oxygen-qt6 (>= 4:6.2.90~), kgamma (>= 6.2.90~), khelpcenter, kinfocenter (>= 4:6.2.90~), kio-extras, kmenuedit (>= 4:6.2.90~), kscreen (>= 4:6.2.90~), ksshaskpass (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~) | kwin-x11 (>= 4:6.2.90~), kwrited (>= 4:6.2.90~), libkf6kcmutils-bin, libpam-kwallet5 (>= 6.2.90~), plasma-browser-integration (>= 6.2.90~), plasma-desktop-doc (>= 4:6.3.4-2+tjm1), plasma-discover (>= 6.2.90~), plasma-disks (>= 6.2.90~), plasma-firewall (>= 6.2.90~), plasma-nm (>= 4:6.2.90~), plasma-pa (>= 4:6.2.90~), plasma-systemmonitor (>= 6.2.90~), plasma-thunderbolt (>= 6.2.90~), plasma-vault (>= 6.2.90~), plasma-welcome (>= 6.2.90~), plasma5-integration (>= 6.2.90~), powerdevil (>= 4:6.2.90~), systemsettings (>= 4:6.2.90~), xdg-desktop-portal-gtk, xdg-desktop-portal-kde (>= 6.2.90~)
+Suggests: kde-config-flatpak (>= 6.2.90~)
+Breaks: plasma-desktop-data (<< 4:6.3.2-3~), plasma-workspace (<< 4:6.1.0~), user-manager (<< 4:5.20)
+Replaces: plasma-desktop-data (<< 4:6.3.2-3~), plasma-workspace (<< 4:6.1.0~)
+Homepage: https://invent.kde.org/plasma/plasma-desktop
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-desktop/plasma-desktop_6.3.4-2+tjm1_amd64.deb
+Size: 1509312
+SHA256: 9243e02d4bc1405f713c859d13d81456c230f81ba562dca55922483c84b6f982
+SHA1: 1c782369dbda93aec2078861b0d715dec07bbea4
+MD5sum: c7ca427503c39b46be98f851c9c64941
+Description: Tools and widgets for the desktop
+ Plasma Desktop offers a beautiful looking desktop
+ that takes complete advantage of modern computing technology.
+ Through the use of visual effects and scalable graphics,
+ the desktop experience is not only smooth but also pleasant
+ to the eye. The looks of Plasma Desktop not only provide beauty,
+ they are also used to support and improve your computer
+ activities effectively, without being distracting.
+ .
+ This package is part of the KDE Plasma.
+
+Package: plasma-desktop-data
+Source: plasma-desktop
+Version: 4:6.3.4-2+tjm1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 22444
+Depends: python3:any
+Breaks: plasma-widgets-addons (<< 4:5.25.70~)
+Replaces: plasma-widgets-addons (<< 4:5.25.70~)
+Homepage: https://invent.kde.org/plasma/plasma-desktop
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-desktop/plasma-desktop-data_6.3.4-2+tjm1_all.deb
+Size: 10755852
+SHA256: a80c42a39bfaa06b57b61bb51e2428996d077623ea3e11ac49eef68939ee9f95
+SHA1: b482cbf21fc15709306a3f4af83dd089df418e80
+MD5sum: c28f60b90b5c1b57d490aef5902cebb1
+Description: Tools and widgets for the desktop data files
+ Plasma Desktop offers a beautiful looking desktop
+ that takes complete advantage of modern computing technology.
+ Through the use of visual effects and scalable graphics,
+ the desktop experience is not only smooth but also pleasant
+ to the eye. The looks of Plasma Desktop not only provide beauty,
+ they are also used to support and improve your computer
+ activities effectively, without being distracting.
+ .
+ This package is part of the KDE Plasma.
+ .
+ This package contains the data files for the Plasma shell.
+
+Package: plasma-desktop-dbgsym
+Source: plasma-desktop
+Version: 4:6.3.4-2+tjm1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 47397
+Depends: plasma-desktop (= 4:6.3.4-2+tjm1)
+Priority: optional
+Section: debug
+Filename: pool/main/p/plasma-desktop/plasma-desktop-dbgsym_6.3.4-2+tjm1_amd64.deb
+Size: 45759568
+SHA256: 298551f7360f6f6ec86573a45f32be51a97cf808b7cb7feabbe9ab9e35465419
+SHA1: beb534ed70c24cb9dd01eaabac481d1a208e8510
+MD5sum: c71b2e6ce05e2bdf75a0ea5702a5d92f
+Description: debug symbols for plasma-desktop
+Build-Ids: 094db807ee1cc165bcefe74a5ce8301d6be1738c 105e20aae5a06e8ee68bda1dda8b2400e478843f 1495d3f8206c7c8b730c32a4177f6f14a85f9d9a 17687023432801ce3da12c6e96a8cc217793b5ae 29dfb5e62692b3c8ce2a032c6b0822b274f3106e 2de2f4d139465696213323d13deafab2286d5b95 3825c48bf923c2e97aac26a7597e7f181596ad3c 3da1d2e68ca86c5c4b0159b15a28bf003e0e25c1 4e2874bfaf06c37b9b06f34cd70791b9855145fa 4e65175d1f06be5a73e132a11763a9b7f7cd271b 50f0d6e08cb0b6564bfe9f6a77757999e3c06922 51ceba969182ed553bcf2277fb06ac0b02fe2747 54757311cb3bbb130a67adb31f36f3fd0fc04477 54c806141137ba750c506e1f5be3878f2e2a4fcb 5dfdc090234c667fe0e006c63c4a718a3024eb0e 5f619ac0ddcd197c12917930e01f321e841b3e1f 630a9a4b9a6026d14f9c3331ab59622b0b120e1f 65dccfef36093b063c7ad3fc6157db204556add2 67c90b709f16942bc37fca2411fda7e07795e105 6acf0d29db47d3a81359dbb25104e04d2ec0ae1e 6bd2486d738a66f967c9fbbfed46fed561ed6727 7370f20ff5ff2fb233192d87d2271adaa6da41ae 74277f4db8f2a32a28bb98df5111b2c0d9689fc5 79269bca29eb79163ca5a6bb4c5d15fca97fface 8314958717aed0b2d699867cdb4edaec14339c52 8aec90a950538b59b7df769c21c9515ba768e6a9 91de239b7e8196fb816d3549146b13c8c29a42ca 92296941884edc234c477eae670344c1f950f31d 935b911ca81a0ddc223f926f37d49a9b47a0334a 940b47648c61a17ee3ff819b2f90c83f7bbf1cab 9d0fcae434713936315d3fbdbc2455be9a77c45c a84a471409f1ca7a0279cd6a73ae00ffa4a13f1c ab0314a65a6a22d95f623b005f3a83a79c992027 ab8bda2916bb9a45ba80a91b42bcba51afab4a2a b0fe3869849f8d1bb1a63e6a33a3b7baa9a394fb b5996bef78f68b47938eaa70c68c629d6585d790 ba8f38dd288717054fd4e118235dc0d328742835 be0ae7e40444dbe20854b73bf346178fe2ea6054 bfd01433a4cb8d5444725368e5f52f77e267bd65 cdd30f2b08eb0d04f8e8d851f3f0b6a3d3f2e9a0 d0bf0830ebc6166741a3d54be2579af968c1e030 e97abb7541e1d4d5280d47e25fe809c42d5d6969 e9996a33408e4724b7153a21e9df5ac53c6ccbf8 ec2f044b5e05f0fa031d1b10eab555438fcde46b f380c4ea77a832da07d3e14903ac4bbdff6bb0dd f3cb33c834be18c40ef79961d1a1c5cc73ed4dbb f4ded139e6638a633d558e45f37c60158f3a03e0 f6bb066b55a50db461ff1563d3aee5380ef5c93e f83037175dd299cd51a27dd1f832d8073d38e13d fd3181ef60e1aca860d54b90990cb24a0c4a5358 fed3b04585bf0da0e9f0dbc24952c052eb49408a
+
+Package: plasma-desktop-dev
+Source: plasma-desktop
+Version: 4:6.3.4-2+tjm1
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 53
+Homepage: https://invent.kde.org/plasma/plasma-desktop
+Priority: optional
+Section: devel
+Filename: pool/main/p/plasma-desktop/plasma-desktop-dev_6.3.4-2+tjm1_amd64.deb
+Size: 16832
+SHA256: 4b5b26110376781114103e26f6a2bca4e2a817abc7517a1c5adf1b5d5a448f13
+SHA1: c4fa98439259fd3e02cefa36f97c74c4de903c95
+MD5sum: 2c92a784e6d3df66f1f27b0f5fb47974
+Description: Tools and widgets for the desktop
+ Plasma Desktop offers a beautiful looking desktop
+ that takes complete advantage of modern computing technology.
+ Through the use of visual effects and scalable graphics,
+ the desktop experience is not only smooth but also pleasant
+ to the eye. The looks of Plasma Desktop not only provide beauty,
+ they are also used to support and improve your computer
+ activities effectively, without being distracting.
+ .
+ This package is part of the KDE Plasma.
+ .
+ This package contains the development files for the Plasma shell.
+
+Package: plasma-desktop-doc
+Source: plasma-desktop
+Version: 4:6.3.4-2+tjm1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 7276
+Breaks: plasma-desktop-data (<< 4:6.1.90~)
+Replaces: plasma-desktop-data (<< 4:6.1.90~)
+Homepage: https://invent.kde.org/plasma/plasma-desktop
+Priority: optional
+Section: doc
+Filename: pool/main/p/plasma-desktop/plasma-desktop-doc_6.3.4-2+tjm1_all.deb
+Size: 4800216
+SHA256: a8e10acb71bc3308e795322c1c36de70ff61b53882d0bfa2bbaf98427281b20e
+SHA1: 6d3b36dd81668bda3f4de65b9a33c9a5248169c0
+MD5sum: 2ca2d0e1e6cd2735a5a4ed1fa8030879
+Description: Plasma desktop documentation
+ Plasma Desktop offers a beautiful looking desktop
+ that takes complete advantage of modern computing technology.
+ Through the use of visual effects and scalable graphics,
+ the desktop experience is not only smooth but also pleasant
+ to the eye. The looks of Plasma Desktop not only provide beauty,
+ they are also used to support and improve your computer
+ activities effectively, without being distracting.
+ .
+ This package is part of the KDE Plasma.
+ .
+ This package contains the documentation for the Plasma shell.
+
+Package: sddm-theme-breeze
+Source: plasma-desktop
+Version: 4:6.3.4-2+tjm1
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 640
+Depends: plasma-desktoptheme, plasma-workspace, sddm (>= 0.21.0-2)
+Provides: sddm-theme
+Homepage: https://invent.kde.org/plasma/plasma-desktop
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-desktop/sddm-theme-breeze_6.3.4-2+tjm1_amd64.deb
+Size: 581060
+SHA256: 23cfaaee29598dfb5f8be8da648fb8319a2ad2bf8279e64457ff028da93a0659
+SHA1: bf50ba200f176949de7f54baf75c560781f59369
+MD5sum: 10948fe8664e7a939459dcf3a41119e0
+Description: Breeze SDDM theme
+ Plasma Workspace for KF6. Workspaces provide
+ support for KDE Plasma Widgets, integrated search,
+ hardware management and a high degree of customizability.
+ Taskmanager library.
+ .
+ This package contains the files for the breeze SDDM theme.
+
+Package: sddm-theme-debian-breeze
+Source: plasma-desktop
+Version: 4:6.3.4-2+tjm1
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 78
+Depends: plasma-desktoptheme, plasma-workspace, qt6-svg-plugins, sddm-theme-breeze
+Recommends: desktop-base, sddm
+Provides: sddm-theme
+Homepage: https://invent.kde.org/plasma/plasma-desktop
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-desktop/sddm-theme-debian-breeze_6.3.4-2+tjm1_amd64.deb
+Size: 21252
+SHA256: cc402b5b0e53e9df7a8297cdda1e0037be94d5d4ae5455458c3e6ac9e621367b
+SHA1: 4848d8b45d795aaa625cda07b916bc75428e63c3
+MD5sum: dbf463d7a20b410010e1472eda2937eb
+Description: Debian Breeze SDDM theme
+ Plasma Workspace for KF5. Workspaces provide
+ support for KDE Plasma Widgets, integrated search,
+ hardware management and a high degree of customizability.
+ Taskmanager library.
+ .
+ This package contains the files for the breeze SDDM theme adapted
+ to use the active desktop-base theme for the background.
+

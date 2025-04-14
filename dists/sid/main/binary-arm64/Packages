@@ -1,0 +1,59 @@
+Package: plasma-desktop-data
+Source: plasma-desktop
+Version: 4:6.3.4-2+tjm1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 22444
+Depends: python3:any
+Breaks: plasma-widgets-addons (<< 4:5.25.70~)
+Replaces: plasma-widgets-addons (<< 4:5.25.70~)
+Homepage: https://invent.kde.org/plasma/plasma-desktop
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-desktop/plasma-desktop-data_6.3.4-2+tjm1_all.deb
+Size: 10755852
+SHA256: a80c42a39bfaa06b57b61bb51e2428996d077623ea3e11ac49eef68939ee9f95
+SHA1: b482cbf21fc15709306a3f4af83dd089df418e80
+MD5sum: c28f60b90b5c1b57d490aef5902cebb1
+Description: Tools and widgets for the desktop data files
+ Plasma Desktop offers a beautiful looking desktop
+ that takes complete advantage of modern computing technology.
+ Through the use of visual effects and scalable graphics,
+ the desktop experience is not only smooth but also pleasant
+ to the eye. The looks of Plasma Desktop not only provide beauty,
+ they are also used to support and improve your computer
+ activities effectively, without being distracting.
+ .
+ This package is part of the KDE Plasma.
+ .
+ This package contains the data files for the Plasma shell.
+
+Package: plasma-desktop-doc
+Source: plasma-desktop
+Version: 4:6.3.4-2+tjm1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 7276
+Breaks: plasma-desktop-data (<< 4:6.1.90~)
+Replaces: plasma-desktop-data (<< 4:6.1.90~)
+Homepage: https://invent.kde.org/plasma/plasma-desktop
+Priority: optional
+Section: doc
+Filename: pool/main/p/plasma-desktop/plasma-desktop-doc_6.3.4-2+tjm1_all.deb
+Size: 4800216
+SHA256: a8e10acb71bc3308e795322c1c36de70ff61b53882d0bfa2bbaf98427281b20e
+SHA1: 6d3b36dd81668bda3f4de65b9a33c9a5248169c0
+MD5sum: 2ca2d0e1e6cd2735a5a4ed1fa8030879
+Description: Plasma desktop documentation
+ Plasma Desktop offers a beautiful looking desktop
+ that takes complete advantage of modern computing technology.
+ Through the use of visual effects and scalable graphics,
+ the desktop experience is not only smooth but also pleasant
+ to the eye. The looks of Plasma Desktop not only provide beauty,
+ they are also used to support and improve your computer
+ activities effectively, without being distracting.
+ .
+ This package is part of the KDE Plasma.
+ .
+ This package contains the documentation for the Plasma shell.
+
