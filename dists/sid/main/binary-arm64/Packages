@@ -18,6 +18,219 @@ Description: Bluetooth support (metapackage)
  This package provides all of the different plugins supported
  by the Bluez bluetooth stack.
 
+Package: bluez
+Version: 5.82-1+tjm1
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 5566
+Depends: libasound2t64 (>= 1.0.17), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdw1t64 (>= 0.127), libglib2.0-0t64 (>= 2.76.0), libreadline8t64 (>= 7.0~rc1), libudev1 (>= 196), init-system-helpers (>= 1.52), adduser, kmod, udev, default-dbus-system-bus | dbus-system-bus
+Suggests: pulseaudio-module-bluetooth
+Multi-Arch: foreign
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez_5.82-1+tjm1_arm64.deb
+Size: 1277288
+SHA256: 347e7e1b22e73427219f52d6261d03634d0637738d1274a39dc665ceb11ee797
+SHA1: cde15e39c1e55c5a93d8fe25745919026777a22e
+MD5sum: 3078f2820149a35beb7c46c25b19d035
+Description: Bluetooth tools and daemons
+ This package contains tools and system daemons for using Bluetooth devices.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-cups
+Source: bluez
+Version: 5.82-1+tjm1
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 135
+Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.12.0), cups
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez-cups_5.82-1+tjm1_arm64.deb
+Size: 54084
+SHA256: 509365ca5da245b0e0dd2a1b6a5c058e19c24761e8882b47d5979ee93dd0f648
+SHA1: a65e9d65c8bd3e4bb7f3aa5ca9a0cb2205ad2048
+MD5sum: 1ecbe37fe94be9f241fd6496de3c82d2
+Description: Bluetooth printer driver for CUPS
+ This package contains a driver to let CUPS print to Bluetooth-connected
+ printers.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-cups-dbgsym
+Source: bluez
+Version: 5.82-1+tjm1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 147
+Depends: bluez-cups (= 5.82-1+tjm1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/bluez/bluez-cups-dbgsym_5.82-1+tjm1_arm64.deb
+Size: 69832
+SHA256: d0d35c401263dcce1083e9407e7530f5d36a46471651d97b7bc40d1bd6efe8e8
+SHA1: db7bcdc1fea5709d20a6d6db63bf8cebb0bdb5b8
+MD5sum: 661d4a1b09a7dd0f33d23cb81294355e
+Description: debug symbols for bluez-cups
+Build-Ids: 786cc5f6cbc979a3d8f28b8a46e464cc94a59357
+
+Package: bluez-dbgsym
+Source: bluez
+Version: 5.82-1+tjm1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 12400
+Depends: bluez (= 5.82-1+tjm1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/bluez/bluez-dbgsym_5.82-1+tjm1_arm64.deb
+Size: 5448308
+SHA256: 20c1720a1ab18574d974f52da43f593fc99ac125cf51ccbeca9ccbb97681aaf5
+SHA1: e4c8a442753fac13b9f19af7ad80794fdfd73fe8
+MD5sum: 2eff8eaa8be9ed0a232671725a9fdbc5
+Description: debug symbols for bluez
+Build-Ids: 072da3afbabb4fafddd4ea93eab18be9ed32d6b0 09b56252c005047c664f3968125adb7765ac59d3 0e5a334b74dcbe34c2e89c4593b462574e94e5aa 14083967cd73e538923b5aaf1597682b0ec3d7fc 23f29c933753f3291ca77e8a6c11691bfc15b1ed 26fdb7d839cca85a614516f7b26a3936f424d95f 286f90f36157bf9c43b01314e87835d0965d7289 2ab5992d255b50b533e00530874d604edc032394 2e45fd427e5d823677c76953cc2be57d522d05e2 5e81a207e6c66a50610e796f6f8eca1f074f04c4 816e1f3ded1d90cde04c3fe67640d3356435bf9e 927e64b3945419dbd2d6eabac7e3802c8ae7d4bd a33200cd6f2c3be56ce808e139b0f8601dc26ec3 ae71f763bf6c98f61583e68acaf1fa8cd529f1de c4e8d8b9418d50a1067c4db49de485a69f9063bc da522846e93c53d02fbcd42389d2bbbce7043d22 ddf3f610d5f8f8115730e3c99929f039c9527003 efb34afbc6fc6abe90fa43311e6dcc5db1889fbb f25defeae6ccedd557177a783ebedecc112925fb f7533aa0d67c2da5252e33d8bb552d710fc7855b
+
+Package: bluez-hcidump
+Source: bluez
+Version: 5.82-1+tjm1
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 456
+Depends: libc6 (>= 2.38)
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez-hcidump_5.82-1+tjm1_arm64.deb
+Size: 149440
+SHA256: 3e704bdefbc8c2ccaa87c4938ee607e8dfda5158a44aaa2aa7587bf116458a6f
+SHA1: e9b3d236c7a34a0a61f4d1d25769a3ba2b8167bf
+MD5sum: 0902209473fe8c83ce888cc1c58f2442
+Description: Analyses Bluetooth HCI packets
+ The hcidump utility allows the monitoring of Bluetooth activity.
+ It provides a disassembly of the Bluetooth traffic and can display
+ packets from higher level protocols such as RFCOMM, SDP and BNEP.
+ .
+ This was the software that is independent as bluez-hcidump, but this has been
+ integrated into BlueZ from BlueZ 5.0.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-hcidump-dbgsym
+Source: bluez
+Version: 5.82-1+tjm1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 841
+Depends: bluez-hcidump (= 5.82-1+tjm1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/bluez/bluez-hcidump-dbgsym_5.82-1+tjm1_arm64.deb
+Size: 393776
+SHA256: d50a9911c14ead6943ed7daca8da13ccc8c97d7874c27a1f132c0cda8c9cfd3a
+SHA1: 380faa7399ebb6ec25afe195207301602272f92f
+MD5sum: 3e04d62e3c41c314f6dc6c403bf7bacf
+Description: debug symbols for bluez-hcidump
+Build-Ids: 64756fb27e87223ddebc31b6ddc1078cefaac7e4
+
+Package: bluez-meshd
+Source: bluez
+Version: 5.82-1+tjm1
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 940
+Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libell0 (>= 0.40), libglib2.0-0t64 (>= 2.28.0), libjson-c5 (>= 0.15), libreadline8t64 (>= 7.0~rc1)
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez-meshd_5.82-1+tjm1_arm64.deb
+Size: 279244
+SHA256: 27b4f8fbc9d43e0940eee86919eb6ed099154b14fe37bf526f8a9cb64683b7ab
+SHA1: 2c43f4689da4d079ae4e287826f93bd401ac8dd1
+MD5sum: 7aaa56fa1d28d7423e9d1528f9e4fd63
+Description: bluetooth mesh daemon
+ The Bluetooth Mesh network is a new Bluetooth feature that extends "Bluetooth
+ Low Energy (BLE)".
+ .
+ This package provides daemon (meshd) and tools that provide Bluetooth mesh
+ functionality.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-meshd-dbgsym
+Source: bluez
+Version: 5.82-1+tjm1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 2210
+Depends: bluez-meshd (= 5.82-1+tjm1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/bluez/bluez-meshd-dbgsym_5.82-1+tjm1_arm64.deb
+Size: 1014724
+SHA256: 1675db137021f121db3ebe9b9de6d4e293aaab62d6fb9a661b6866d7fd0c86cc
+SHA1: 6678b5d78894070cb734488b6c34ee91770c5895
+MD5sum: 10529a6dced2d1aafa30b84b9a6e88d1
+Description: debug symbols for bluez-meshd
+Build-Ids: 0ed56cd8fd726a5b8674c7e9f0bd51bda7bea795 220b4abaade159968785de4558456e8eeabfaf87 2fae93b7b6ee9cb7bf9125df00daa9f0f9a0b4ff 68ebaca6db4d7a5ec5f673914c89a2cbc82825f8
+
+Package: bluez-obexd
+Source: bluez
+Version: 5.82-1+tjm1
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 473
+Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.78.0), libical3t64 (>= 3.0.0), init-system-helpers (>= 1.52)
+Recommends: dbus-user-session
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez-obexd_5.82-1+tjm1_arm64.deb
+Size: 154500
+SHA256: 4e964d1546260b6ffa871b2441855e9b1fd4e8129554be8aac2585dc2aff09e0
+SHA1: 224133bb32d67992f238a4b0a4134051b6c4232f
+MD5sum: a600d57b303379d6802f024eaf01770a
+Description: bluez obex daemon
+ This package contains a OBEX(OBject EXchange) daemon.
+ .
+ OBEX is communication protocol to facilitate the exchange of the binary
+ object between the devices.
+ .
+ This was the software that is independent as obexd, but this has been
+ integrated into BlueZ from BlueZ 5.0.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-obexd-dbgsym
+Source: bluez
+Version: 5.82-1+tjm1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 1189
+Depends: bluez-obexd (= 5.82-1+tjm1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/bluez/bluez-obexd-dbgsym_5.82-1+tjm1_arm64.deb
+Size: 508496
+SHA256: e899253292034ccf90c0d426bef9f696a59d41635b5eccacdea450e769d46b03
+SHA1: a7ee5f6120f40106cd9d7710e67bc946237c9520
+MD5sum: b10163aa879878bebe9c203f9ba2b5fc
+Description: debug symbols for bluez-obexd
+Build-Ids: 107731ea344e790ee5504e7eb09c3fc9e31dd28f
+
 Package: bluez-source
 Source: bluez
 Version: 5.82-1+tjm1
@@ -58,6 +271,109 @@ Description: test scripts of bluez
  .
  BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
  project distributed under GNU General Public License (GPL).
+
+Package: bluez-test-tools
+Source: bluez
+Version: 5.82-1+tjm1
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 3393
+Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.28.0), bluez (= 5.82-1+tjm1)
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez-test-tools_5.82-1+tjm1_arm64.deb
+Size: 376652
+SHA256: 72b0fd3a69fc7664f637e81c097c35c1c3646baaa06ebc257d68f0d513f5d2f1
+SHA1: fede2415cf044105edd38af6b8cdd8e59aaf46d7
+MD5sum: 8ec24a06eb18ca829921a28190f8decb
+Description: test tools of bluez
+ This package contains test tools for using BlueZ.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-test-tools-dbgsym
+Source: bluez
+Version: 5.82-1+tjm1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 8256
+Depends: bluez-test-tools (= 5.82-1+tjm1)
+Priority: optional
+Section: debug
+Filename: pool/main/b/bluez/bluez-test-tools-dbgsym_5.82-1+tjm1_arm64.deb
+Size: 3869112
+SHA256: 7603163577e9094aede28dd1649a9b5feec6426f67217bb0e87b742616ff2fb3
+SHA1: 42062a10457c9d6d1f3b1a9a28fcfc958e0349b6
+MD5sum: 30049d2e400c5d136b4b99e92918bb56
+Description: debug symbols for bluez-test-tools
+Build-Ids: 1dcb4d3c6a471fa2b8f4c190f4ceba0719e04d0e 25ae1d74314fdd1234944ff495877271b9abd8b3 33ab3a285f85fffedf623abb5fe7c0bcb93c8fc3 393ca7ed651361f7f22583d0ee86f614a82fd2fe 3e47e421f6dd1ce455c849e144dae0c96ce030ad 4d3b8feb11557e7cbc88d39216584b577bb68a88 53cdb44f5fa385c0528bdb3f9793a8e1fdef1ecb 562e20e5e640ff8ffb1a8a411a6d3c1ee475c8d9 635b522a7d06c47dc2377874ee6fa2d7d8bf2f0c 6d65ac84de891255e22b7b9f003baef25b79e78f 6e9e5cd38860519a32239bd34c3f4b9bb20b3788 9f6d4dc426376faa2731d7361415b72afe42fb8b a27a155029ef100be2ce336156d984538576c0de ae07ab883deee17801d7238574c82f5ef74c74cf b03fc882611c845a07c94dfce06f32db4a95e36b f23264655e31dd3ec6ee7ea1e4148e6712daaabc
+
+Package: libbluetooth-dev
+Source: bluez
+Version: 5.82-1+tjm1
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 968
+Depends: libbluetooth3 (= 5.82-1+tjm1), libc6-dev | libc-dev
+Suggests: pkgconf
+Provides: libbluetooth3-dev
+Multi-Arch: same
+Homepage: http://www.bluez.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/b/bluez/libbluetooth-dev_5.82-1+tjm1_arm64.deb
+Size: 271824
+SHA256: d0b328373f8e911b20647ce9bf43087bc02de2a98469a1932244e3552941a613
+SHA1: 05d0d6c64034b8f44b46f91c30550ac2cfe8d09a
+MD5sum: a551b00ead79727e29ae3f4fe0fcac40
+Description: Development files for using the BlueZ Linux Bluetooth library
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+ .
+ This package contains the development libraries and header files you need to
+ develop your programs using the libbluetooth library.
+
+Package: libbluetooth3
+Source: bluez
+Version: 5.82-1+tjm1
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 336
+Depends: libc6 (>= 2.38)
+Multi-Arch: same
+Homepage: http://www.bluez.org
+Priority: optional
+Section: libs
+Filename: pool/main/b/bluez/libbluetooth3_5.82-1+tjm1_arm64.deb
+Size: 103400
+SHA256: 56425b3370ce65c8f799f8d38e2b146911cd8f65e7afe36522e78ecf9b814c9e
+SHA1: 45e5d6050a515645f1adbb6fba86088aaf03de0d
+MD5sum: fe6deca909fd8904cf1e5a73b6b57ec1
+Description: Library to use the BlueZ Linux Bluetooth stack
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: libbluetooth3-dbgsym
+Source: bluez
+Version: 5.82-1+tjm1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 174
+Depends: libbluetooth3 (= 5.82-1+tjm1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/b/bluez/libbluetooth3-dbgsym_5.82-1+tjm1_arm64.deb
+Size: 123320
+SHA256: a087faa7859cb1620653a0e7b0b842a96a58e2e36609cfd5cbab46582f565c27
+SHA1: 49e63374548475d8f5ed2058cd495d3b480969ed
+MD5sum: b00d1d1f8450d0469ee374685733a46c
+Description: debug symbols for libbluetooth3
+Build-Ids: f51b6833f6f363e2b76f34d5f3fdb08fa275347f
 
 Package: plasma-desktop
 Version: 4:6.3.4-2+tjm1
