@@ -1,3 +1,64 @@
+Package: bluetooth
+Source: bluez
+Version: 5.82-1+tjm1
+Architecture: all
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 67
+Depends: bluez
+Suggests: bluez-cups, bluez-obexd, bluez-meshd
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluetooth_5.82-1+tjm1_all.deb
+Size: 38608
+SHA256: 1ca7e8f3b1896ad0ac8cb938f3ab1c94af2d8eee43787436741a5b2cd28bf49d
+SHA1: e27c72ae7b122fc80c598eda151e0c2f2a62b47f
+MD5sum: 8725d34ba79ceb6618f13c9ce82dc5a3
+Description: Bluetooth support (metapackage)
+ This package provides all of the different plugins supported
+ by the Bluez bluetooth stack.
+
+Package: bluez-source
+Source: bluez
+Version: 5.82-1+tjm1
+Architecture: all
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 102131
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez-source_5.82-1+tjm1_all.deb
+Size: 104533500
+SHA256: 71beff1308ca763d8a8217c7fdebb118b42c31bb61d0ccd800ab6be4013cb7c0
+SHA1: 7308aadd28baf402cb07bcbc883d41ebed6ca632
+MD5sum: 664f9aaddff50e8c8b9a1f8639bc1629
+Description: Source code for the BlueZ Linux Bluetooth stack
+ This package contains the sources and patches which are needed
+ to build bluez.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-test-scripts
+Source: bluez
+Version: 5.82-1+tjm1
+Architecture: all
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 258
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez-test-scripts_5.82-1+tjm1_all.deb
+Size: 69296
+SHA256: 6f047806cc53db3da0b3a1255fc6cb29a2c79d44be06218dd9b8d9d03c456fd8
+SHA1: b595fd0496ca10c84dd0d86835df3be653c5ddbe
+MD5sum: e77d72f720927ea1dbb6a1038f644ff0
+Description: test scripts of bluez
+ This package contains test scripts for using BlueZ.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
 Package: plasma-desktop
 Version: 4:6.3.4-2+tjm1
 Architecture: arm64
