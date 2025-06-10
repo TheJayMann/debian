@@ -1,39 +1,39 @@
 Package: bluetooth
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Architecture: all
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 67
+Installed-Size: 68
 Depends: bluez
 Suggests: bluez-cups, bluez-obexd, bluez-meshd
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluetooth_5.82-1+tjm1_all.deb
-Size: 38608
-SHA256: 1ca7e8f3b1896ad0ac8cb938f3ab1c94af2d8eee43787436741a5b2cd28bf49d
-SHA1: e27c72ae7b122fc80c598eda151e0c2f2a62b47f
-MD5sum: 8725d34ba79ceb6618f13c9ce82dc5a3
+Filename: pool/main/b/bluez/bluetooth_5.82-1.1+tjm1_all.deb
+Size: 38672
+SHA256: 1668b659ba46f9d8b2ef7a4a47b12ba098e7f4fc02174044ac26735c7ec80642
+SHA1: 88d3600225ff38420ecc2e07c942ba9cf94f2dec
+MD5sum: 53fc4baedc6df0c7781115f54dc47e32
 Description: Bluetooth support (metapackage)
  This package provides all of the different plugins supported
  by the Bluez bluetooth stack.
 
 Package: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 4823
+Installed-Size: 4824
 Depends: libasound2t64 (>= 1.0.17), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdw1t64 (>= 0.127), libglib2.0-0t64 (>= 2.76.0), libreadline8t64 (>= 7.0~rc1), libudev1 (>= 196), init-system-helpers (>= 1.52), adduser, kmod, udev, default-dbus-system-bus | dbus-system-bus
 Suggests: pulseaudio-module-bluetooth
 Multi-Arch: foreign
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez_5.82-1+tjm1_amd64.deb
-Size: 1406856
-SHA256: 2ca9b2ab71c1668e95da1b6310fd792d5883f15dc1a2f482ae5ba8f43eb55f4d
-SHA1: 1205deb52d76bd9f0a9dea550ed430233d24e7ff
-MD5sum: 0ab37d4f981b1636a8d64b86570cc488
+Filename: pool/main/b/bluez/bluez_5.82-1.1+tjm1_amd64.deb
+Size: 1406652
+SHA256: 4046fff79302a3068716d535912670bff09b4c2ea0324b9e5d3fd5c59b192361
+SHA1: e5f82e6a0f2ec7ddc219327b65a4f5bfb0239fb2
+MD5sum: e937f3a6a95d4883e692429c0fd8857c
 Description: Bluetooth tools and daemons
  This package contains tools and system daemons for using Bluetooth devices.
  .
@@ -42,19 +42,19 @@ Description: Bluetooth tools and daemons
 
 Package: bluez-cups
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 115
+Installed-Size: 116
 Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.12.0), cups
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-cups_5.82-1+tjm1_amd64.deb
-Size: 55208
-SHA256: a24312d4d48e697596c8e7306b696f8cc9f61bf362826c34d76dfb2ee477c488
-SHA1: d6046a8b7393b33f5e40a6c4f38f8b3b76a9b328
-MD5sum: 6cc66753a3b1cf73a9b699288251a43e
+Filename: pool/main/b/bluez/bluez-cups_5.82-1.1+tjm1_amd64.deb
+Size: 55276
+SHA256: 70921ae21436f8a6f263018c5fdd7a4904795350fc1dd4074c137367a3f61375
+SHA1: 20ad8ae265cb01882a11a69c863171a9f686b01a
+MD5sum: 0ad0ad307d8c8c21dbb6a9fe9f57504d
 Description: Bluetooth printer driver for CUPS
  This package contains a driver to let CUPS print to Bluetooth-connected
  printers.
@@ -64,55 +64,55 @@ Description: Bluetooth printer driver for CUPS
 
 Package: bluez-cups-dbgsym
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
 Installed-Size: 164
-Depends: bluez-cups (= 5.82-1+tjm1)
+Depends: bluez-cups (= 5.82-1.1+tjm1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/bluez-cups-dbgsym_5.82-1+tjm1_amd64.deb
+Filename: pool/main/b/bluez/bluez-cups-dbgsym_5.82-1.1+tjm1_amd64.deb
 Size: 71024
-SHA256: 8b9c9f8a7d04d1ae4632dda8f72dd8230598896d6f2e8eb0638daea7806a8262
-SHA1: 2ba883277702ef54ecb7905c9e770d14eeb83735
-MD5sum: 1879ebc9ce27744c15dd78201c5fb87e
+SHA256: 4d7f2efb2f9ca83857b540e1aedf4833199803ba7bacc1b1a3b0f41f28d1fce0
+SHA1: e03e0cea7d7a622e056092a19676f5438bc97ae1
+MD5sum: e3abab83589b27b9e06b61bf5cd59cdc
 Description: debug symbols for bluez-cups
 Build-Ids: 6461fb88eee73336c8d85c2fc27ba556d69e775e
 
 Package: bluez-dbgsym
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
 Installed-Size: 9129
-Depends: bluez (= 5.82-1+tjm1)
+Depends: bluez (= 5.82-1.1+tjm1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/bluez-dbgsym_5.82-1+tjm1_amd64.deb
+Filename: pool/main/b/bluez/bluez-dbgsym_5.82-1.1+tjm1_amd64.deb
 Size: 5501792
-SHA256: 6b0023149a4bd8eafa48c4cb534fff35e3dcd5aabc16958fb9c510573dbe62e8
-SHA1: d70ee2547f7fe16d1f605c55111ca6e1b04e8b62
-MD5sum: 79c0f0f4755c642bdb4088aae8ea0d85
+SHA256: 4a378668e7b517e1afe4a589f1ff8a41e00fe3eb626a46cda5b707236adfb69b
+SHA1: 9d5d5afcd2d5e0d6f1f9fc6da13818e24c17f154
+MD5sum: bda0186904a7a9aa1e78a2a57a2a594c
 Description: debug symbols for bluez
 Build-Ids: 05eecf190979139fe4d0a3fd2320113d662eea1c 061e92443f655c22f26c9d74c5627fdb4847a6fa 0ba402d325c6762e957d080118b14ff3adfb172e 17064d8106eb3bf686bcd5ee293315cc64f82fa3 2b7e6a4c11d0b1068aa24b7cf042290f0c41cbdf 2c9787ff367c5740efa64b6573592a40e9c53955 7309e90d66086991e870c60458251e8bc5aae071 76bad679a300bdbd6e3dcdd82580ad791aee79c9 81a41225f24be29f391e156f19c9e740d8edcc45 8be0beb5392aaebc259293047e3ddbafb138bbc4 946e066dd9dff67f5b48e19fe0448b77cf3abd43 a0fb260db436e5886532a5109c9905af569ec22c a7eb0063123044f4e0498f45aa598b3647de0591 a95f6ce7963085cacdccc868e138d675a6c1b40e bf7077e63e4703e89f35928bf33a8dc5a91f9002 c716f01adcc9a6a4afc5fab71957e865645a8c26 da2df6082b6067fb2792529dc4dc9770d16324b2 e24eecb1b08ed185de108a6a1c11de5deea00e7a e4068546d0b48d72d08002cd6eba14d70c79a606 f0b43a5a24ac1955b255ba32ab2f77604c44dc51
 
 Package: bluez-hcidump
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 428
+Installed-Size: 429
 Depends: libc6 (>= 2.38)
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-hcidump_5.82-1+tjm1_amd64.deb
-Size: 158724
-SHA256: 76df73e3f164eb8b8160d32b6bcab9ae2c2d15b8f4ee4b3a432282bf7a929d81
-SHA1: f0c7f834aed0bba1e8c49ec95930a330a4aa88ba
-MD5sum: 50ede566820c0f38ea70825a3d1c5f16
+Filename: pool/main/b/bluez/bluez-hcidump_5.82-1.1+tjm1_amd64.deb
+Size: 158776
+SHA256: dd1ebed37c0f8427f586d9e7c48d78f95006e923b0993e7abe77881c413acb6c
+SHA1: d5dd1fb9a2e7ba8a875396bb8022f58aa2c5a020
+MD5sum: ca2f5699c5d7389e8b1fdbff02d71893
 Description: Analyses Bluetooth HCI packets
  The hcidump utility allows the monitoring of Bluetooth activity.
  It provides a disassembly of the Bluetooth traffic and can display
@@ -126,37 +126,37 @@ Description: Analyses Bluetooth HCI packets
 
 Package: bluez-hcidump-dbgsym
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
 Installed-Size: 665
-Depends: bluez-hcidump (= 5.82-1+tjm1)
+Depends: bluez-hcidump (= 5.82-1.1+tjm1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/bluez-hcidump-dbgsym_5.82-1+tjm1_amd64.deb
+Filename: pool/main/b/bluez/bluez-hcidump-dbgsym_5.82-1.1+tjm1_amd64.deb
 Size: 403936
-SHA256: f5b3613365bed7b57b61a41304b9a7ee33a6f41d227099de644b0b4b5251fbcb
-SHA1: 152558c85ca5b4212df018a0acc137b36f7d620a
-MD5sum: 14fc8d3a13f62ab4af2c4b6b3c3632f8
+SHA256: c77d6241ba3fe39e547c1b8529685fbf4bb4ceb7c12b8f15acdcbd2a0606c4c9
+SHA1: 583f156b7c8cd4f364225391cc71e7e316c00c09
+MD5sum: e92c58d525cc170da9bbe51a7ed885b2
 Description: debug symbols for bluez-hcidump
 Build-Ids: 24950eb58bac9bd87befff236987852a50ca1f5b
 
 Package: bluez-meshd
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 830
+Installed-Size: 831
 Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libell0 (>= 0.40), libglib2.0-0t64 (>= 2.28.0), libjson-c5 (>= 0.15), libreadline8t64 (>= 7.0~rc1)
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-meshd_5.82-1+tjm1_amd64.deb
-Size: 302808
-SHA256: f796066c313dacc218b62bc4a49d511f6dca4b4416c35e08eac9f19308fd376a
-SHA1: 26d1dbcb9fc771116ec124b08f2aef975fc021f7
-MD5sum: 03acfc4cc6962d148144b6b8ec5c74f9
+Filename: pool/main/b/bluez/bluez-meshd_5.82-1.1+tjm1_amd64.deb
+Size: 302880
+SHA256: 6d0f90e2f28c73ebd817255996384bc9ce7ffed8d00a5ed5e78b82b17a8980df
+SHA1: 4a3ab0db19d464dd6018b05dc4f4db38bab742f1
+MD5sum: 27abbcdd4927930a3cf1441ab5006288
 Description: bluetooth mesh daemon
  The Bluetooth Mesh network is a new Bluetooth feature that extends "Bluetooth
  Low Energy (BLE)".
@@ -169,38 +169,38 @@ Description: bluetooth mesh daemon
 
 Package: bluez-meshd-dbgsym
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
 Installed-Size: 1492
-Depends: bluez-meshd (= 5.82-1+tjm1)
+Depends: bluez-meshd (= 5.82-1.1+tjm1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/bluez-meshd-dbgsym_5.82-1+tjm1_amd64.deb
+Filename: pool/main/b/bluez/bluez-meshd-dbgsym_5.82-1.1+tjm1_amd64.deb
 Size: 1024288
-SHA256: 2de6efb6f8e3fbd97564e0242fe8f5271c1496604f6e351ae4d5cc7b424b6df1
-SHA1: bddc2f6f642adeb8ed2a90a820cd510563ba7cfe
-MD5sum: 672a69f54f2168f42d72121a17812917
+SHA256: bbae25deb4146a9e12b6f9eecd4177ffc845ad0263616688cca0d9be78b6f0fa
+SHA1: 2643543e2e638dd75d930cdbb9aa0d2986b901ea
+MD5sum: 1b4ca5d44ef6054386237d012b0af222
 Description: debug symbols for bluez-meshd
 Build-Ids: 0d28a11870a3b3e5c5e91ed393c1fc6205e9c3a3 3e859556336e4f1d7463eff2e288e42acd3bd41f d69361645097d398d444abb588868a00dee2f653 eb86b5d169d2ead39f379a21f3ccbca6c6e3b4ca
 
 Package: bluez-obexd
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 445
+Installed-Size: 446
 Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.78.0), libical3t64 (>= 3.0.0), init-system-helpers (>= 1.52)
 Recommends: dbus-user-session
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-obexd_5.82-1+tjm1_amd64.deb
-Size: 165412
-SHA256: 7f22de10fd7e46d8cb643646e9c14c74539b8be61f1566fa84f74b9f4b03a998
-SHA1: 443ec71dffbcc85802495eb9277f6672c8b34b14
-MD5sum: 8fc818b0632618e418e7ef8d92c9c68d
+Filename: pool/main/b/bluez/bluez-obexd_5.82-1.1+tjm1_amd64.deb
+Size: 165484
+SHA256: ab399dc0b06da8fb03a7b08f6da55462d668040eaf85cffbd9f4e1cba09ff925
+SHA1: 946d7556a684161fabce342880a9dcb2c022f517
+MD5sum: e7bbf0fd28a5ff3ff60151ec5e3e205e
 Description: bluez obex daemon
  This package contains a OBEX(OBject EXchange) daemon.
  .
@@ -215,36 +215,36 @@ Description: bluez obex daemon
 
 Package: bluez-obexd-dbgsym
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
 Installed-Size: 839
-Depends: bluez-obexd (= 5.82-1+tjm1)
+Depends: bluez-obexd (= 5.82-1.1+tjm1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/bluez-obexd-dbgsym_5.82-1+tjm1_amd64.deb
+Filename: pool/main/b/bluez/bluez-obexd-dbgsym_5.82-1.1+tjm1_amd64.deb
 Size: 513112
-SHA256: 9c7a03647b8d9beb58c1e661274517f99cc8b16ee874c390aefe0b4f33146a56
-SHA1: cdb49ea58eafd83decf08c7e86e832db0cd09e19
-MD5sum: dca7843dc2033b7dd155534ec583076d
+SHA256: be92d466587930ebee61e3c17ca8a3940205cb94e515cc0c57a42c9fbf73435c
+SHA1: de5b690db6552739e999895612ed9e53fbf5e3bb
+MD5sum: 35e85c47b4a7ed88d679d9916112ae7b
 Description: debug symbols for bluez-obexd
 Build-Ids: 4b19874381ca0815c3f010e713d0a1c09c1dcd9d
 
 Package: bluez-source
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Architecture: all
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 102131
+Installed-Size: 102133
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-source_5.82-1+tjm1_all.deb
-Size: 104533500
-SHA256: 71beff1308ca763d8a8217c7fdebb118b42c31bb61d0ccd800ab6be4013cb7c0
-SHA1: 7308aadd28baf402cb07bcbc883d41ebed6ca632
-MD5sum: 664f9aaddff50e8c8b9a1f8639bc1629
+Filename: pool/main/b/bluez/bluez-source_5.82-1.1+tjm1_all.deb
+Size: 104533584
+SHA256: d5c7a9330d9e92b9b9f3744255a2e44a1320d447da4cf79f69e2387f687584ec
+SHA1: 4633155696fecc712951c5d521db95dc5d426d24
+MD5sum: 84b5591024bb54025add15f17e92421a
 Description: Source code for the BlueZ Linux Bluetooth stack
  This package contains the sources and patches which are needed
  to build bluez.
@@ -254,18 +254,18 @@ Description: Source code for the BlueZ Linux Bluetooth stack
 
 Package: bluez-test-scripts
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Architecture: all
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 258
+Installed-Size: 259
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-test-scripts_5.82-1+tjm1_all.deb
-Size: 69296
-SHA256: 6f047806cc53db3da0b3a1255fc6cb29a2c79d44be06218dd9b8d9d03c456fd8
-SHA1: b595fd0496ca10c84dd0d86835df3be653c5ddbe
-MD5sum: e77d72f720927ea1dbb6a1038f644ff0
+Filename: pool/main/b/bluez/bluez-test-scripts_5.82-1.1+tjm1_all.deb
+Size: 69376
+SHA256: 1813a0df32910c762cdeaf0ffd8920f9172c3200c1c7953e8167f6c8293ac26a
+SHA1: f5f45149d00a0b8d0658236c7b3b451ad74efcb4
+MD5sum: 4b911edaf4572d55da7e5f4427efcde9
 Description: test scripts of bluez
  This package contains test scripts for using BlueZ.
  .
@@ -274,19 +274,19 @@ Description: test scripts of bluez
 
 Package: bluez-test-tools
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 2961
-Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.28.0), bluez (= 5.82-1+tjm1)
+Installed-Size: 2962
+Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.28.0), bluez (= 5.82-1.1+tjm1)
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-test-tools_5.82-1+tjm1_amd64.deb
-Size: 394096
-SHA256: d5d56087b637c116c095b89ee7a147eade8f51336b14822e478e640efe8c1da4
-SHA1: b684c7491fb636a6c0951ef9bdf872fe1aac0584
-MD5sum: 63f910514783354fb28bd4d4eb2bb80d
+Filename: pool/main/b/bluez/bluez-test-tools_5.82-1.1+tjm1_amd64.deb
+Size: 394144
+SHA256: 6ab385c907a1ba10b9a57e462abd38a4525ad304fdc43700337eb4ef3659f8da
+SHA1: 2e682333c40637ae13c76b20e27dd4bd0378192c
+MD5sum: 6c88e80379119cf0667d60e66fa519da
 Description: test tools of bluez
  This package contains test tools for using BlueZ.
  .
@@ -295,40 +295,40 @@ Description: test tools of bluez
 
 Package: bluez-test-tools-dbgsym
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
 Installed-Size: 6230
-Depends: bluez-test-tools (= 5.82-1+tjm1)
+Depends: bluez-test-tools (= 5.82-1.1+tjm1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/bluez-test-tools-dbgsym_5.82-1+tjm1_amd64.deb
+Filename: pool/main/b/bluez/bluez-test-tools-dbgsym_5.82-1.1+tjm1_amd64.deb
 Size: 3929336
-SHA256: 4aaa260f1a5ac36e371cdf1fb1b00d8663a4162cabf948e6838be0dfd9117a6f
-SHA1: 2f5c2ff7cb3c6046b5e174f5c92200dce0e2e37f
-MD5sum: d9f62fd38838759cf9d429a9340aa80f
+SHA256: d2b6e414f5118eafc0825df6d34834fa829b1f0ac830e009e190b7d727e66d7b
+SHA1: 881ca935fa651d71c1699860d76926e167e16085
+MD5sum: d707f07827d4c37aa3dee351830d77bf
 Description: debug symbols for bluez-test-tools
 Build-Ids: 05ebe839fb4d8f4537294300885b14f41b7152f8 06fb63b0cdd4a75ad6dfa7efd1c03f34046348cd 2746a80af919534b854a3996554df45d4bd46d99 3940ddc2931ace2a30e5f8ad9237ce691227be52 4d704221f31237511b0b3c505dae7a33bce3fd68 78357755031f6079fc4a5dfd9462d0355a0010ac 7a0def3bd9f53b3415b2b3f87d635f425033aa43 7b3d314919cdb58dab6a2edafc81a78efc06a491 93ea096dfc446a9855dfa628647f34a93a25b4f6 a0455eca6477e47136f0476260dcc89726e8dcdf c0519e7e99b36aedbb2360845eac577e92b8bdd2 d0c0090f719f28fe122b2bb0ce8595d9b0a0c262 d67973267333640130830e695183825d02951504 da55b551b12f86022425e1b8bd657d7cccd1df0c daee351a3de9800fb5a768cde5f15e89ed284d3a e60a7b372024b861ec253ce13c2ec07be7dcedaa
 
 Package: libbluetooth-dev
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 1002
-Depends: libbluetooth3 (= 5.82-1+tjm1), libc6-dev | libc-dev
+Installed-Size: 1003
+Depends: libbluetooth3 (= 5.82-1.1+tjm1), libc6-dev | libc-dev
 Suggests: pkgconf
 Provides: libbluetooth3-dev
 Multi-Arch: same
 Homepage: http://www.bluez.org
 Priority: optional
 Section: libdevel
-Filename: pool/main/b/bluez/libbluetooth-dev_5.82-1+tjm1_amd64.deb
-Size: 274504
-SHA256: bf22c1906584a320211e004f5080d62392a8d6ce2fd1bbab4ebb667ae33cf230
-SHA1: 5f7ea51078c74d49be775c15666280b4346891c8
-MD5sum: ddfd2bd5195708d2f115f131dd9dcfd7
+Filename: pool/main/b/bluez/libbluetooth-dev_5.82-1.1+tjm1_amd64.deb
+Size: 274572
+SHA256: 6866feb8a9759696d325be5eab094440e31f84d8a986ae57063942726770fb05
+SHA1: c2c926c6716e7447ade2a36e47678920ec3ffb7e
+MD5sum: b19fc74c3872a243c51f001f833f0103
 Description: Development files for using the BlueZ Linux Bluetooth library
  BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
  project distributed under GNU General Public License (GPL).
@@ -338,40 +338,40 @@ Description: Development files for using the BlueZ Linux Bluetooth library
 
 Package: libbluetooth3
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 268
+Installed-Size: 269
 Depends: libc6 (>= 2.38)
 Multi-Arch: same
 Homepage: http://www.bluez.org
 Priority: optional
 Section: libs
-Filename: pool/main/b/bluez/libbluetooth3_5.82-1+tjm1_amd64.deb
-Size: 101704
-SHA256: 4761650b0c39cdb6beb21af209d704daa6f73d3879eb9c645f7ac810390d98c2
-SHA1: 81f4774888c4853310e903e20f3c69666c7b1b45
-MD5sum: b67429828cd40d68be86a3d832ae0d7f
+Filename: pool/main/b/bluez/libbluetooth3_5.82-1.1+tjm1_amd64.deb
+Size: 101784
+SHA256: e7111f83659d693696be528d27ba9019b78254cd7dbb0ed72349e18cc52144b6
+SHA1: 4b8589b557ae934eda8b39a5508762b0a9ac829a
+MD5sum: e209cebdc7e6d2b2f84c51bebcb73f0e
 Description: Library to use the BlueZ Linux Bluetooth stack
  BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
  project distributed under GNU General Public License (GPL).
 
 Package: libbluetooth3-dbgsym
 Source: bluez
-Version: 5.82-1+tjm1
+Version: 5.82-1.1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
 Installed-Size: 206
-Depends: libbluetooth3 (= 5.82-1+tjm1)
+Depends: libbluetooth3 (= 5.82-1.1+tjm1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/libbluetooth3-dbgsym_5.82-1+tjm1_amd64.deb
-Size: 120924
-SHA256: c5d287cbbb59659a482019ae3ec5e9b0e089e9d2a2a298dec0b114f9ad877ea2
-SHA1: 89a8136c70357071e76ef27d4c18f48a79ace296
-MD5sum: f1fde8f4e3e9541a86323f804b1ebe0b
+Filename: pool/main/b/bluez/libbluetooth3-dbgsym_5.82-1.1+tjm1_amd64.deb
+Size: 120928
+SHA256: e5f068ed30c28ee639e58c31bc4d68614b73311a90d2bbe2e339550bb6d3a1e8
+SHA1: c535970ef0c3f8648a77f077649002df1979778d
+MD5sum: 6b7e43af49ff107e164e0a7de03fead2
 Description: debug symbols for libbluetooth3
 Build-Ids: 0b9d48f56b3796e188983195a09a7e8511d5bad1
 
