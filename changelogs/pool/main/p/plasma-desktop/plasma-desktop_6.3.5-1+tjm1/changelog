@@ -1,8 +1,58 @@
-plasma-desktop (4:6.3.4-2+tjm1) unstable; urgency=medium
+plasma-desktop (4:6.3.5-1+tjm1) unstable; urgency=medium
 
   * Remove scim
 
  -- TheJayMann <736769+TheJayMann@users.noreply.github.com>  Mon, 14 Apr 2025 16:37:07 -0400
+
+plasma-desktop (4:6.3.5-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Demote oxygen theme to Suggests.
+  * New upstream release (6.3.5).
+    - Port Timer objects away from adjustable-duration intervals where needed.
+    (kde#500717)
+    - Applets/taskmanager: Don't undesirably rotate group dialog items.
+    (kde#470410)
+    - Avoid double-addition of x coordinate of ActivitySwitcher. (kde#502656,
+    kde#502375)
+    - Kcms/recentfiles: fix grid items responding to hover when disabled.
+    (kde#502522)
+    - Round AudioStream width which in turn rounds its position as well.
+    (kde#500039)
+  * Relax inter-plasma versioned dependency constraint so we can upload
+    only 6.3.5 packages that have actual code changes.
+  * Backport upstream commits scheduled for 6.3.6:
+    - Fix desktop folder view's "Sort By" option reverting to "Unsorted" when
+    adding files to the desktop via any method. (kde#482470)
+  * Backport other upstream commits:
+    - Fix regression preventing users from changing the display name of their
+    keyboard layouts. (kde#500057)
+    - Make power/session actions appear first in krunner instead of related
+    configuration pages. (kde#474981)
+    - Sync password input between screens in multi-monitor setups.
+    (kde#433563)
+    - Only show lock screen UI elements on the screen currently having the
+    mouse pointer. (kde#409226, kde#465566)
+    - Fix setting / resetting custom icons in the kicker launcher sometimes
+    failing.
+    - Clear login password when selecting a different user. (kde#502514)
+    - Fix drag and drop in kicker launcher favorites launching app on mouse
+    button release. (kde#501585)
+    - Ensure already open dolphin is brought forward when clicking on the
+    trash widget. (kde#499936)
+    - Use the correct icon for the text-to-speech configuration page.
+    (kde#503930)
+    - Fix configuration of the folder view on desktop not working.
+    (kde#454889)
+    - Fix panel edit mode UI elements not displaying RTL languages properly.
+    (kde#503272)
+    - Fix resizing vertical panel length not showing handles. (kde#494452)
+    - Fix empty categories in kickoff after applications are updated,
+    installed, or removed until navigating away from it and then back again.
+    (kde#504891)
+  * Add missing preview for the Debian-themed SDDM theme.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 20 May 2025 08:27:52 +0200
 
 plasma-desktop (4:6.3.4-2) unstable; urgency=medium
 
