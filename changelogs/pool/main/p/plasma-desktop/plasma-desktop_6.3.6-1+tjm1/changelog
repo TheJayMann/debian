@@ -1,8 +1,39 @@
-plasma-desktop (4:6.3.5-1+tjm1) unstable; urgency=medium
+plasma-desktop (4:6.3.6-1+tjm1) unstable; urgency=medium
 
   * Remove scim
 
- -- TheJayMann <736769+TheJayMann@users.noreply.github.com>  Mon, 14 Apr 2025 16:37:07 -0400
+ -- TheJayMann <736769+TheJayMann@users.noreply.github.com>  Sun, 07 Sep 2025 16:53:48 -0400
+
+plasma-desktop (4:6.3.6-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Fix installation path of sddm-theme-debian-breeze preview. (Closes:
+    #1108513)
+  * New upstream release (6.3.6).
+    - FolderItemDelegate: use label implicitHeight in frame size calculation.
+    (kde#490402)
+    - FolderModel: When adding files, keep the current sorting. (kde#482470)
+  * Drop backported patches now part of the upstream release.
+  * Refresh patches.
+  * Backport upstream commits:
+    - Fix scrolling in widget explorer broken in touch mode. [64f3fe1b]
+    (kde#474929)
+    - Fix case where the lock screen may sometimes shows a passwordless unlock
+    button on wake-up. [2592f1fe] (kde#486352)
+    - Folder View: Don't show wrong context menu when left-and-right-clicking
+    [635ea80c] (kde#501856)
+    - Folder View: Fix wrong Context Menu appears if the user doesn't move the
+    pointer after the previous one fades out. [53bd4d6b] (kde#504765)
+    - Folder View: Fix wrong display and activation of items under some
+    conditions. [f6c6e03a] (kde#497498, kde#505718, kde#504569)
+    - lockscreen: prevent immediate prompting for the password, fixing
+    fingerprint reader. [fc4981c4] (kde#499637)
+  * As part of #1095604, add Recommends: qt6-virtualkeyboard-plugin to
+    SDDM themes so we can remove that same relation from SDDM itself.
+    Having it there forces themes without virtual keyboard awareness to
+    display it permanently.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 18 Jul 2025 19:23:25 +0200
 
 plasma-desktop (4:6.3.5-1) unstable; urgency=medium
 
