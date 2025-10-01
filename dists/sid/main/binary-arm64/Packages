@@ -1,39 +1,39 @@
 Package: bluetooth
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Architecture: all
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 68
+Installed-Size: 65
 Depends: bluez
 Suggests: bluez-cups, bluez-obexd, bluez-meshd
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluetooth_5.82-1.1+tjm1_all.deb
-Size: 38672
-SHA256: 1668b659ba46f9d8b2ef7a4a47b12ba098e7f4fc02174044ac26735c7ec80642
-SHA1: 88d3600225ff38420ecc2e07c942ba9cf94f2dec
-MD5sum: 53fc4baedc6df0c7781115f54dc47e32
+Filename: pool/main/b/bluez/bluetooth_5.84-1+tjm1_all.deb
+Size: 38576
+SHA256: a609b5730bc101c4b14354771d4881e59377206dcbf749cfb3e5542c22a67266
+SHA1: ad20aa8823002744fcca99f76b2964113a13f581
+MD5sum: a3f717d030f6f1fbd5a5cde684ac329f
 Description: Bluetooth support (metapackage)
  This package provides all of the different plugins supported
  by the Bluez bluetooth stack.
 
 Package: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 5567
+Installed-Size: 5666
 Depends: libasound2t64 (>= 1.0.17), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdw1t64 (>= 0.127), libglib2.0-0t64 (>= 2.76.0), libreadline8t64 (>= 7.0~rc1), libudev1 (>= 196), init-system-helpers (>= 1.52), adduser, kmod, udev, default-dbus-system-bus | dbus-system-bus
 Suggests: pulseaudio-module-bluetooth
 Multi-Arch: foreign
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez_5.82-1.1+tjm1_arm64.deb
-Size: 1282940
-SHA256: d1a1430fefc0aab3e97ad99899ed1fb814c6a537b52b4406418df6928fe28b5c
-SHA1: 9d720c00b7bf560b809c4d0a97a945dc31812cf0
-MD5sum: 62cc4f47857f0aefb1a033fe0790a6ef
+Filename: pool/main/b/bluez/bluez_5.84-1+tjm1_arm64.deb
+Size: 1330092
+SHA256: f3fd4495a1722a854628e7834fd339b40e4a966d738c415cc21b5fb66fa49c6b
+SHA1: 1374247f1001088e2a9087d7b568c900e4c4f9fa
+MD5sum: 3e2d7118576fd3b03bee37ab96a1bec3
 Description: Bluetooth tools and daemons
  This package contains tools and system daemons for using Bluetooth devices.
  .
@@ -42,19 +42,19 @@ Description: Bluetooth tools and daemons
 
 Package: bluez-cups
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 136
+Installed-Size: 133
 Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.12.0), cups
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-cups_5.82-1.1+tjm1_arm64.deb
-Size: 54240
-SHA256: 27fed5b1d173dce9eb816ecbd7ef926f072f8d08735349c3aeaf8a92299a222e
-SHA1: c6dbc5c8127cbb3bcd3670814d494963126f249d
-MD5sum: 988c31f29560dac9a7b82b6af034ff5a
+Filename: pool/main/b/bluez/bluez-cups_5.84-1+tjm1_arm64.deb
+Size: 53804
+SHA256: 6629ee0ab3318cdd2f115fd1d1892065ea0dc1ae5519de75fcfc6d13c223173d
+SHA1: 96f62c47f681205dcaa28b8683694dfea0a0496b
+MD5sum: ce4b37039b3c5a62a94e029fc1bcbe20
 Description: Bluetooth printer driver for CUPS
  This package contains a driver to let CUPS print to Bluetooth-connected
  printers.
@@ -64,55 +64,55 @@ Description: Bluetooth printer driver for CUPS
 
 Package: bluez-cups-dbgsym
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 147
-Depends: bluez-cups (= 5.82-1.1+tjm1)
+Installed-Size: 146
+Depends: bluez-cups (= 5.84-1+tjm1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/bluez-cups-dbgsym_5.82-1.1+tjm1_arm64.deb
-Size: 69888
-SHA256: da30ceb761dcfd750ddd3b1d9511737740e86b7003731186e22d6258a6210b09
-SHA1: 9ded15f3ac6c57a39a8f0ad7be1663b46a6f68bd
-MD5sum: 77e401505b27ebfd2b4d1581d809d82a
+Filename: pool/main/b/bluez/bluez-cups-dbgsym_5.84-1+tjm1_arm64.deb
+Size: 69364
+SHA256: 2ce73fa80c19b0b6557c2501d4e7afc713374f611b5b8f7995006d63373d2af0
+SHA1: 9d5e8ff7c5bef9dfc1e6e366ec43ca8e99deee44
+MD5sum: 62a8d3264d7930783dc80e751246fe8d
 Description: debug symbols for bluez-cups
-Build-Ids: 56bdb7a2638bc32cf3c320b3610b51a28ca8d04f
+Build-Ids: 3b40c2cb6149897a39ad4127ff8b7ac463fce1c0
 
 Package: bluez-dbgsym
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 12404
-Depends: bluez (= 5.82-1.1+tjm1)
+Installed-Size: 12555
+Depends: bluez (= 5.84-1+tjm1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/bluez-dbgsym_5.82-1.1+tjm1_arm64.deb
-Size: 5448728
-SHA256: 2f869691c86e944aa4e94489ba62d536f811eebdbde3354e3257ca67387a1b63
-SHA1: 4731849d40c960cb027bea5a3c06a457ba36ca7a
-MD5sum: e2ad99dcc15cfa834d2e8b07b2faf9c1
+Filename: pool/main/b/bluez/bluez-dbgsym_5.84-1+tjm1_arm64.deb
+Size: 5507988
+SHA256: 1d1f2f00f2be1469ec429637e2e16ccc9e92cb0d474357f6b6d87ebf1ecb4201
+SHA1: df3029def90323675197a49d408d84761e4afe5c
+MD5sum: a04eecdc8ee415338c8c8766d92992de
 Description: debug symbols for bluez
-Build-Ids: 0f7ee14978e8b730ec21bc5afa155f3058f35e45 2c07955b9787618b126bce26f58eb43434b2bbb5 32e327ac77ed18c012a59b6e0e04bd4eeff918ed 366d61c30a44fe8557fda218e2769f80f33ac6c2 4de841ce014506d0942e578203ede909535a962a 4e2ac540cc8f6c10f4dbd1721aa67b8c1d908f8d 6b76805ea4fe7ac162b76dfb27494b013fdb8b0f 721621c38dd49d5a19a943a965e5904481a57026 74b893da5c6d49aa537a008d826caa329d05e652 7cbf480fa6baa6f3525f0465cdef09896cc2e538 891109368d108211581a6e6db9dea59ce11599e9 8bae3b9ffc646d52dd2575ba01af50b6c8ac7e54 8fb75b270d0a65683083fa7cc655c54049ac85a8 afde956c88daf5a19ee806b8f4020c595344817b d28de233fbbbd715e451af104b825ff4a82a3347 da156547ea1aa3e7067cf220dc8c12d736cbd350 da375aa6fa6fec7077eec52d7bbc56479378d4cd e2bfb7f0a9669efac360e84497e8f0c551c13030 e624798f8fab40f90bc66c2eebea8730d5380b4b eb957801086da18b446c3898ef7e5e271b8a1fb4
+Build-Ids: 0c5e2f7f563e41accd42b353dd64518defed7c33 0caaf7d672df704f4049a5f309bfc3ee33374899 0ecdf4aaa2990ffd0d4f05cfbe0ab92c366bf4e9 14847ea935e71bda2f51e4d344ae11247c6061cc 27de8fa53dfc842736fd8ed84e34169793842240 2b2127598412d5bab883bbfd954630c4ecf7c9d3 371b100ce1224763e7ba07a9b5c5833aa0b8e55b 54ab0352fb4f116d4f1431578ec52103901ea79f 5516951aa9b2be1a61c49d588509b668caec7d57 5773c51001dc28e31868d9c187d82ef343af770b 62dc9e174dce057a643c789033d4ff14a51a0a5a 78d64c4b78fd53ff55266f192fa5031f2ede8aed 9169735ab3ba06396755e5170379ff4d1277363c 92c8ca8bdf4972878a6995fac4b1d968963e9bc2 9f518afbdc8385fca3bff7f1ee0e3e730a11ca1d b15a089d67d94aa6452299e4cdfbecc6afed400e c72e6f1ae5d2c7749eee6256f55059e4b3bb2aef cdff289e8a17c3356ad132c2776dc54a3c9f6003 deb4bc55dec794fdb3f2db78814f8bf8398c389c fc369bde1c2f401dbf9ec1c93cac102828fdafee
 
 Package: bluez-hcidump
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 457
+Installed-Size: 454
 Depends: libc6 (>= 2.38)
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-hcidump_5.82-1.1+tjm1_arm64.deb
-Size: 149756
-SHA256: 65655dfa549e85be695ee37bcd5a9fa62eec2a303f26e1dc810eab20436596de
-SHA1: 080225b9bc96923cd398a07bac084c8cae66859e
-MD5sum: 3143043916b37c80a9c26fba68feca26
+Filename: pool/main/b/bluez/bluez-hcidump_5.84-1+tjm1_arm64.deb
+Size: 149308
+SHA256: d2cd8a25f75df174ee87177741279003bf7e90b7ece7eadcbcf4e6b36406eea0
+SHA1: e09ef91c7943dda6eaa3a44d06cfd71aa1c245ca
+MD5sum: a9474644c322bf5ea1006e4c244d46aa
 Description: Analyses Bluetooth HCI packets
  The hcidump utility allows the monitoring of Bluetooth activity.
  It provides a disassembly of the Bluetooth traffic and can display
@@ -126,37 +126,37 @@ Description: Analyses Bluetooth HCI packets
 
 Package: bluez-hcidump-dbgsym
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 841
-Depends: bluez-hcidump (= 5.82-1.1+tjm1)
+Installed-Size: 830
+Depends: bluez-hcidump (= 5.84-1+tjm1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/bluez-hcidump-dbgsym_5.82-1.1+tjm1_arm64.deb
-Size: 393888
-SHA256: 936eceacd9a96f11e01149a3db4aa64efe5de3ea4502dcc50c7cfa5305614d74
-SHA1: 5bf7cd37a19f3999b14c7c105d92ee33682a6db2
-MD5sum: a28e08e3c2ac96beaf32d190fe4a8539
+Filename: pool/main/b/bluez/bluez-hcidump-dbgsym_5.84-1+tjm1_arm64.deb
+Size: 384704
+SHA256: 1f6799ac29cb520c347416b7c0fb20bece094bc53e6aa1306d35ea0e8c043e78
+SHA1: b831145d8ec036de87b68bfbfbbf3140c860fbd1
+MD5sum: de8e61ea2ecbf1cd6ea2be46de880557
 Description: debug symbols for bluez-hcidump
-Build-Ids: 185697ffd70db3637363424237ca5eda59577189
+Build-Ids: 98b79e352f00444616def40c35f351a040cc29d1
 
 Package: bluez-meshd
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 942
-Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libell0 (>= 0.40), libglib2.0-0t64 (>= 2.28.0), libjson-c5 (>= 0.15), libreadline8t64 (>= 7.0~rc1)
+Installed-Size: 1001
+Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libell0 (>= 0.40), libglib2.0-0t64 (>= 2.36.0), libjson-c5 (>= 0.15), libreadline8t64 (>= 7.0~rc1)
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-meshd_5.82-1.1+tjm1_arm64.deb
-Size: 280392
-SHA256: ba90a927115aeb47c286309540449e9fa799ba83d29f0394fa7b8e5e4e16dd3a
-SHA1: a1e3f227bc0b45ba036525f3d4c59ef826cf14b8
-MD5sum: 16d4c949f8e438350a1ada0fdc55197d
+Filename: pool/main/b/bluez/bluez-meshd_5.84-1+tjm1_arm64.deb
+Size: 280616
+SHA256: a396393add43b1b0ec034e37f6ebbb901f8f42786238f43abe0823d84a895e0d
+SHA1: 8a522bad66f6648651d628fbc243e4a5062e7859
+MD5sum: b1f0fa74375e4deab2480dc17a8cd33b
 Description: bluetooth mesh daemon
  The Bluetooth Mesh network is a new Bluetooth feature that extends "Bluetooth
  Low Energy (BLE)".
@@ -169,38 +169,38 @@ Description: bluetooth mesh daemon
 
 Package: bluez-meshd-dbgsym
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 2210
-Depends: bluez-meshd (= 5.82-1.1+tjm1)
+Installed-Size: 2217
+Depends: bluez-meshd (= 5.84-1+tjm1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/bluez-meshd-dbgsym_5.82-1.1+tjm1_arm64.deb
-Size: 1014948
-SHA256: f59be57b8e60980ad9372825391c23f13ee8d0a11f89ef000bc1fc33e46aebb1
-SHA1: ef5d8622dad70c286088727bd5dce65b22c83126
-MD5sum: 5a9c4917736de2793af08b68f6ccb270
+Filename: pool/main/b/bluez/bluez-meshd-dbgsym_5.84-1+tjm1_arm64.deb
+Size: 1009764
+SHA256: 9ee8a42a812aad23c87f6b765e32e8edbac8799e949f5989e4c959f7226dfeba
+SHA1: 2fac61de41751cd4e37cc109444bd22e4087462a
+MD5sum: 0d422b4a28d248bc906331bce74b1125
 Description: debug symbols for bluez-meshd
-Build-Ids: 807a6ea2e6865e7c42c8982604d8fc72f443f37c a33a53b86ae80d774ec65400175d9f85d1e5757f bd58bdc6d7f71d501c640996fe0834a89859ba1c fc3d1d2da182307e79a40ec6f783a1f33bcbe648
+Build-Ids: 069eea96f8a49a6fc71e64d35e7c8dbd1fec0bac 1bbdf09fff196ee617e8f7d3173aa111c487d222 47f84a6941f489f04cbea2450ba936718fc2fc8d 80a5e2b031ceb6b588f62abcfb01c0c8f0b79a33
 
 Package: bluez-obexd
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 474
-Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.78.0), libical3t64 (>= 3.0.0), init-system-helpers (>= 1.52)
+Installed-Size: 471
+Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.78.0), libical3t64 (>= 3.0.0), libsystemd0, init-system-helpers (>= 1.52)
 Recommends: dbus-user-session
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-obexd_5.82-1.1+tjm1_arm64.deb
-Size: 154616
-SHA256: be997c3fa4d970f55aa15c4970720c0ed2f9687e26cea8d27c5c98132aaffc8d
-SHA1: 6c0b85b0383935d82d3c67ca7ab5633efbaa2580
-MD5sum: 16dcea1a366e1c0583afa176b301ed3d
+Filename: pool/main/b/bluez/bluez-obexd_5.84-1+tjm1_arm64.deb
+Size: 154316
+SHA256: ac2bdf290b2408d698168a26440cfc55c0a802ed16b97b73ce5b4002873ed130
+SHA1: 3d7ad437f6e26b25776a7b98c15d1b2d56ba90ff
+MD5sum: 41e4382267be62671ea080d5d2310804
 Description: bluez obex daemon
  This package contains a OBEX(OBject EXchange) daemon.
  .
@@ -215,36 +215,36 @@ Description: bluez obex daemon
 
 Package: bluez-obexd-dbgsym
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 1189
-Depends: bluez-obexd (= 5.82-1.1+tjm1)
+Installed-Size: 1191
+Depends: bluez-obexd (= 5.84-1+tjm1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/bluez-obexd-dbgsym_5.82-1.1+tjm1_arm64.deb
-Size: 508652
-SHA256: 46f0c3f3e1ad468bb143c428228d2a651f0d62b92af7ccc1fc5fbf2d73fbcea1
-SHA1: 8a3dd4f3bb902f4061ef5b686163e45fe96a24db
-MD5sum: e30d7eb1b0932693af663edc15e475e6
+Filename: pool/main/b/bluez/bluez-obexd-dbgsym_5.84-1+tjm1_arm64.deb
+Size: 506188
+SHA256: 869e8cf28e7f14e80a5ab23809fe0fed6dae2e97b6abd3c4472ab9c1d9bb718d
+SHA1: 99fb6c4a60284b95d07c52310ad6a2b4080b35cb
+MD5sum: 690ae2097b7512b1e36f1d8ac7539063
 Description: debug symbols for bluez-obexd
-Build-Ids: 3127bddf3970127ce33b4ae36ed476528d2a6c7b
+Build-Ids: 2d964581972f2e8f2c5cc775cd5fab2334428e3e
 
 Package: bluez-source
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Architecture: all
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 102133
+Installed-Size: 103933
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-source_5.82-1.1+tjm1_all.deb
-Size: 104533584
-SHA256: d5c7a9330d9e92b9b9f3744255a2e44a1320d447da4cf79f69e2387f687584ec
-SHA1: 4633155696fecc712951c5d521db95dc5d426d24
-MD5sum: 84b5591024bb54025add15f17e92421a
+Filename: pool/main/b/bluez/bluez-source_5.84-1+tjm1_all.deb
+Size: 106382792
+SHA256: 400eb29a794b8ffeaee94f376bdbf10755441c01b7731e8a751f0912bf38bf3c
+SHA1: d95dd3a8e00b5dba79086674565eaa740a9ac374
+MD5sum: 4c02fcb0284f88d47b87d39a1c96ca01
 Description: Source code for the BlueZ Linux Bluetooth stack
  This package contains the sources and patches which are needed
  to build bluez.
@@ -254,18 +254,18 @@ Description: Source code for the BlueZ Linux Bluetooth stack
 
 Package: bluez-test-scripts
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Architecture: all
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 259
+Installed-Size: 256
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-test-scripts_5.82-1.1+tjm1_all.deb
-Size: 69376
-SHA256: 1813a0df32910c762cdeaf0ffd8920f9172c3200c1c7953e8167f6c8293ac26a
-SHA1: f5f45149d00a0b8d0658236c7b3b451ad74efcb4
-MD5sum: 4b911edaf4572d55da7e5f4427efcde9
+Filename: pool/main/b/bluez/bluez-test-scripts_5.84-1+tjm1_all.deb
+Size: 69300
+SHA256: 16d5b2a6ed14c05a27b5c4783a99fc14d275912d7508075387369e2c78390f85
+SHA1: be8857638c8bdde6591a6229d64b866028493e8e
+MD5sum: 767d08734c555ce847bc8adc04834000
 Description: test scripts of bluez
  This package contains test scripts for using BlueZ.
  .
@@ -274,19 +274,19 @@ Description: test scripts of bluez
 
 Package: bluez-test-tools
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 3394
-Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.28.0), bluez (= 5.82-1.1+tjm1)
+Installed-Size: 3711
+Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.28.0), bluez (= 5.84-1+tjm1)
 Homepage: http://www.bluez.org
 Priority: optional
 Section: admin
-Filename: pool/main/b/bluez/bluez-test-tools_5.82-1.1+tjm1_arm64.deb
-Size: 377032
-SHA256: 91db44b1f481060e239473feafeec38eca26b66aac26109dba7e75190a7d7518
-SHA1: a24a632be5cfffb7a4ac6d7a3af1c5912665d7f3
-MD5sum: c87998dd4c569725f28c5f06665eb4b8
+Filename: pool/main/b/bluez/bluez-test-tools_5.84-1+tjm1_arm64.deb
+Size: 380872
+SHA256: 6e946b1a0efe1dbc7d8f816e6551da3c6e9349b741d722437813f38aa510caf8
+SHA1: 62a44db759de8585b1604654d408b285cdc58ebb
+MD5sum: 6435f9c4c432797c3a5a8c0f1f6f1617
 Description: test tools of bluez
  This package contains test tools for using BlueZ.
  .
@@ -295,40 +295,40 @@ Description: test tools of bluez
 
 Package: bluez-test-tools-dbgsym
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 8256
-Depends: bluez-test-tools (= 5.82-1.1+tjm1)
+Installed-Size: 8417
+Depends: bluez-test-tools (= 5.84-1+tjm1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/bluez-test-tools-dbgsym_5.82-1.1+tjm1_arm64.deb
-Size: 3867584
-SHA256: 55bf531a2669df79cc6eb2605b12b965651edca7fb4e14560a37b26652e173c7
-SHA1: 4eec0b78234172f42fe25cda227c0d44c47c0c11
-MD5sum: cfbd3afec760aec96f5f61f0b4333b5d
+Filename: pool/main/b/bluez/bluez-test-tools-dbgsym_5.84-1+tjm1_arm64.deb
+Size: 3910392
+SHA256: 9b852a16a2739c622fe53c7e9ba98ae4dd3a71c9ea111deebb025626f70d3f12
+SHA1: 5ef1c98fb2851e5f848777b884b103d91f6c2b00
+MD5sum: 617321da2089d1f6ece9a71bb97c8a34
 Description: debug symbols for bluez-test-tools
-Build-Ids: 1b22048ca30b46cf7a1ac4698b64b8c512e0a9bd 2348622e1173733e7bff6e419669b367078bfa5d 2af6a72a4bd0da883ee3d3477a4e4e0a11ab1579 358f43d66c896a1cf39c2585c188f9e2a9e14556 538a82ddab100a1893a78d195c4be6b0c99ca563 588599d06da715b991ca1174413d2fb5b92fd493 73e92862e4d3fb648a560807a4dca526fac28029 78724d3e756769167478c5ae845f447bb5f8e432 8dabd40fff91c52460f9b45620932c61732fa517 92c668eb0c1843fe9f46f14c936e502bb21e7e7a a0c95438bc361afde5ccaab7d62a3d917d39661c d93eee7d28eba8e6b1693b06c7c41ff2106c1950 e6bb5916fa59068945558fed5b81800671a64829 ee46443fe53984335b818ab9e7daa4c6bf33674f eee8d7ec1db3ab0f121857d1f15384a989c317ab f20af7f74dc8a44e41f5891528581702210ca019
+Build-Ids: 051fbd28d1c49062ea415e5de93f51a7d2057b3e 06e1decbd8b94bc1909a416fa1ddbb26b4ce68e5 1af85a41f00de5ccc6ae5f09c6f273c9ff661a08 2416fe4bf1829857f895b945733c15b184717166 544be8318c5b32017de533a6bcfaa4c7c373a1a0 6bd7f3bff7299343b6d128672bf6590175a8d216 73cfbd5637a75efc43e1164fd18cc1bc83d88e1e 83e7ffad4b1b880fd109da71c867b00d3ce636f5 93585c0efcfb1166fb40af036d8f532ac4f43917 a0664923c422c3d13e6401b87c3be434052bb211 a80890263f3631986f960c946b9e6ba6bc28992c b2a7e9febf7b29ddb8074a8a8f09ca100cac7f63 bbb1a9b70cabf8a20ead79dbc1528ea116a17bb1 bd44ef581dfcdae343582f71e2494913118737c4 bdbb81274680e76c25cb97cfd25452e63e93da2c c6f302fd6f6ab86bcdb6ddb84b688feb23257034
 
 Package: libbluetooth-dev
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 969
-Depends: libbluetooth3 (= 5.82-1.1+tjm1), libc6-dev | libc-dev
+Installed-Size: 1030
+Depends: libbluetooth3 (= 5.84-1+tjm1), libc6-dev | libc-dev
 Suggests: pkgconf
 Provides: libbluetooth3-dev
 Multi-Arch: same
 Homepage: http://www.bluez.org
 Priority: optional
 Section: libdevel
-Filename: pool/main/b/bluez/libbluetooth-dev_5.82-1.1+tjm1_arm64.deb
-Size: 271772
-SHA256: eb6bb15f3f6593dc23ab3f69aa31fd6676e59d76611763ca3d7d2d4e957eb591
-SHA1: cc22679558f816df3b8055799ff47efec25e1403
-MD5sum: 2682e02a794999a76117db3010b69192
+Filename: pool/main/b/bluez/libbluetooth-dev_5.84-1+tjm1_arm64.deb
+Size: 320980
+SHA256: 18f1f2505dff977c4cb47b68e4d6c90c42f71acb258a150b628e640a598da39b
+SHA1: 9acd61d5689a38aa85ead8aa5131e29133a3e5ea
+MD5sum: 6a8f614b9a48ec6d69d19a7219c66b03
 Description: Development files for using the BlueZ Linux Bluetooth library
  BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
  project distributed under GNU General Public License (GPL).
@@ -338,61 +338,61 @@ Description: Development files for using the BlueZ Linux Bluetooth library
 
 Package: libbluetooth3
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 337
+Installed-Size: 334
 Depends: libc6 (>= 2.38)
 Multi-Arch: same
 Homepage: http://www.bluez.org
 Priority: optional
 Section: libs
-Filename: pool/main/b/bluez/libbluetooth3_5.82-1.1+tjm1_arm64.deb
-Size: 103732
-SHA256: 26601ea094f33e65e21c93aa94008bd3168a2b35d1b22a95075bc33a209cae7d
-SHA1: 7b1c4cb2abf6de475284d3805d40e13797c5daad
-MD5sum: b3386abc47c24aea9deb5b0eee75528d
+Filename: pool/main/b/bluez/libbluetooth3_5.84-1+tjm1_arm64.deb
+Size: 102168
+SHA256: 8a08580644d69b57bc12575e9d0ea00155bba1ae1af6c83993a205ec2e210cd1
+SHA1: ec628a7b56cfe3ce408881dcb3f6f0ef5eac6c8a
+MD5sum: 02e63dab17e76492341bdf382ac6376d
 Description: Library to use the BlueZ Linux Bluetooth stack
  BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
  project distributed under GNU General Public License (GPL).
 
 Package: libbluetooth3-dbgsym
 Source: bluez
-Version: 5.82-1.1+tjm1
+Version: 5.84-1+tjm1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 174
-Depends: libbluetooth3 (= 5.82-1.1+tjm1)
+Installed-Size: 172
+Depends: libbluetooth3 (= 5.84-1+tjm1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/b/bluez/libbluetooth3-dbgsym_5.82-1.1+tjm1_arm64.deb
-Size: 123320
-SHA256: 983e5a85f1006d14a88f37944460c25a86e98991f480050a3901416d512a08e7
-SHA1: c56b7f52e3b161b09e3a07a1dfbb9874a6bc068e
-MD5sum: e7eeeca1bc919dc30927847c32cc6cee
+Filename: pool/main/b/bluez/libbluetooth3-dbgsym_5.84-1+tjm1_arm64.deb
+Size: 121100
+SHA256: 204b23f8cbefaf8d6723dbcf62990d796d5be0678f46a6bc9238a048df9464c8
+SHA1: f587268a62c528a92634dfcddbc10446b162aa79
+MD5sum: 4211fdab03cb2481ec8a5e889d62ce4a
 Description: debug symbols for libbluetooth3
-Build-Ids: 9764a80c6b7e6950c0dc73858d74d2f6afd3ecde
+Build-Ids: 55cf38f61a58f989faff35ccc825434c18f58add
 
 Package: plasma-desktop
-Version: 4:6.3.6-1+tjm1
+Version: 4:6.3.6-1+tjm2
 Architecture: arm64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 9040
-Depends: accountsservice, breeze (>= 4:6.2.90~), kactivitymanagerd (>= 6.2.90~), kde-cli-tools (>= 4:6.2.90~), kded6, kio6 (>= 6.13.0-4~), layer-shell-qt (>= 6.2.90~), ocean-sound-theme (>= 6.2.90~), oxygen-sounds (>= 4:6.2.90~), plasma-desktop-data (= 4:6.3.6-1+tjm1), plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace (>= 4:6.2.90~), polkit-kde-agent-1 (>= 4:6.2.90~), qml6-module-org-kde-activities, qml6-module-org-kde-baloo, qml6-module-org-kde-breeze, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-desktop, qml6-module-org-kde-draganddrop, qml6-module-org-kde-graphicaleffects, qml6-module-org-kde-iconthemes, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-delegates, qml6-module-org-kde-kirigamiaddons-tableview, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-newstuff, qml6-module-org-kde-pipewire, qml6-module-qt-labs-platform, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-svg-plugins, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.38), libcanberra0 (>= 0.2), libglib2.0-0t64 (>= 2.80.0), libibus-1.0-5 (>= 1.5.1), libicu76 (>= 76.1-1~), libkaccounts6-2 (>= 24.02.2), libkf6attica6 (>= 6.10.0~), libkf6authcore6 (>= 6.10.0~), libkf6baloo6 (>= 6.10.0~), libkf6bookmarks6 (>= 6.0.0), libkf6codecs6 (>= 6.10.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6guiaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nlocaledata6 (>= 6.10.0~), libkf6iconwidgets6 (>= 6.10.0~), libkf6itemviews6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6kiocore6 (>= 6.13.0-4~), libkf6kiofilewidgets6 (>= 6.13.0-4~), libkf6kiogui6 (>= 6.13.0-4~), libkf6kiowidgets6 (>= 6.13.0-4~), libkf6newstuffcore6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6notifyconfig6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6runner6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.10.0~), libkf6sonnetui6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.10.0~), libkworkspace6-6 (>= 4:6.3.4~), libnotificationmanager1 (>= 4:6.3.4~), libpackagekitqt6-1 (>= 1.1.1), libplasma6 (>= 6.3.4~), libplasmaactivities6 (>= 6.3.4~), libplasmaactivitiesstats1 (>= 6.3.4~), libplasmaquick6 (>= 6.3.4~), libprocesscore10 (>= 4:6.3.4~), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6quickwidgets6 (>= 6.7.0~), libqt6sql6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.2), libqt6xml6 (>= 6.7.0~), libsdl2-2.0-0 (>= 2.24.0), libstdc++6 (>= 13.1), libtaskmanager6 (>= 4:6.3.4~), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.22~), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcb-keysyms1 (>= 0.4.1), libxcb-xkb1, libxcb1, libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.99.4), libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxkbregistry0 (>= 1.0.0), qt6-base-private-abi (= 6.8.2)
-Recommends: bluedevil (>= 4:6.2.90~), breeze-gtk-theme (>= 6.2.90~), fonts-hack, fonts-noto, fonts-noto-color-emoji, ibus-data, kde-config-gtk-style (>= 4:6.2.90~), kde-config-screenlocker (>= 6.2.90~), kde-config-sddm (>= 4:6.2.90~), kde-spectacle, kgamma (>= 6.2.90~), khelpcenter, kinfocenter (>= 4:6.2.90~), kio-extras, kmenuedit (>= 4:6.2.90~), kscreen (>= 4:6.2.90~), ksshaskpass (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~) | kwin-x11 (>= 4:6.2.90~), kwrited (>= 4:6.2.90~), libkf6kcmutils-bin, libpam-kwallet5 (>= 6.2.90~), plasma-browser-integration (>= 6.2.90~), plasma-desktop-doc (>= 4:6.3.6-1+tjm1), plasma-discover (>= 6.2.90~), plasma-disks (>= 6.2.90~), plasma-firewall (>= 6.2.90~), plasma-nm (>= 4:6.2.90~), plasma-pa (>= 4:6.2.90~), plasma-systemmonitor (>= 6.2.90~), plasma-thunderbolt (>= 6.2.90~), plasma-vault (>= 6.2.90~), plasma-welcome (>= 6.2.90~), plasma5-integration (>= 6.2.90~), powerdevil (>= 4:6.2.90~), systemsettings (>= 4:6.2.90~), xdg-desktop-portal-gtk, xdg-desktop-portal-kde (>= 6.2.90~)
+Installed-Size: 8924
+Depends: accountsservice, breeze (>= 4:6.2.90~), kactivitymanagerd (>= 6.2.90~), kde-cli-tools (>= 4:6.2.90~), kded6, kio6 (>= 6.13.0-4~), layer-shell-qt (>= 6.2.90~), ocean-sound-theme (>= 6.2.90~), oxygen-sounds (>= 4:6.2.90~), plasma-desktop-data (= 4:6.3.6-1+tjm2), plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace (>= 4:6.2.90~), polkit-kde-agent-1 (>= 4:6.2.90~), qml6-module-org-kde-activities, qml6-module-org-kde-baloo, qml6-module-org-kde-breeze, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-desktop, qml6-module-org-kde-draganddrop, qml6-module-org-kde-graphicaleffects, qml6-module-org-kde-iconthemes, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-delegates, qml6-module-org-kde-kirigamiaddons-tableview, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-newstuff, qml6-module-org-kde-pipewire, qml6-module-qt-labs-platform, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-svg-plugins, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.38), libcanberra0 (>= 0.2), libglib2.0-0t64 (>= 2.80.0), libibus-1.0-5 (>= 1.5.1), libicu76 (>= 76.1-1~), libkaccounts6-2 (>= 24.02.2), libkf6attica6 (>= 6.10.0~), libkf6authcore6 (>= 6.10.0~), libkf6baloo6 (>= 6.10.0~), libkf6bookmarks6 (>= 6.0.0), libkf6codecs6 (>= 6.10.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6guiaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nlocaledata6 (>= 6.10.0~), libkf6iconwidgets6 (>= 6.10.0~), libkf6itemviews6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6kiocore6 (>= 6.13.0-4~), libkf6kiofilewidgets6 (>= 6.13.0-4~), libkf6kiogui6 (>= 6.13.0-4~), libkf6kiowidgets6 (>= 6.13.0-4~), libkf6newstuffcore6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6notifyconfig6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6runner6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.10.0~), libkf6sonnetui6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.10.0~), libkworkspace6-6 (>= 4:6.3.4~), libnotificationmanager1 (>= 4:6.3.4~), libpackagekitqt6-1 (>= 1.1.1), libplasma6 (>= 6.3.4~), libplasmaactivities6 (>= 6.3.4~), libplasmaactivitiesstats1 (>= 6.3.4~), libplasmaquick6 (>= 6.3.4~), libprocesscore10 (>= 4:6.3.4~), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.0~), libqt6qml6 (>= 6.9.1), libqt6quick6 (>= 6.7.0~), libqt6quickwidgets6 (>= 6.7.0~), libqt6sql6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.2), libqt6xml6 (>= 6.7.0~), libsdl2-2.0-0 (>= 2.24.0), libstdc++6 (>= 13.1), libtaskmanager6 (>= 4:6.3.4~), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.22~), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcb-keysyms1 (>= 0.4.1), libxcb-xkb1, libxcb1, libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.99.4), libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxkbregistry0 (>= 1.0.0), qt6-base-private-abi (= 6.9.2)
+Recommends: bluedevil (>= 4:6.2.90~), breeze-gtk-theme (>= 6.2.90~), fonts-hack, fonts-noto, fonts-noto-color-emoji, ibus-data, kde-config-gtk-style (>= 4:6.2.90~), kde-config-screenlocker (>= 6.2.90~), kde-config-sddm (>= 4:6.2.90~), kde-spectacle, kgamma (>= 6.2.90~), khelpcenter, kinfocenter (>= 4:6.2.90~), kio-extras, kmenuedit (>= 4:6.2.90~), kscreen (>= 4:6.2.90~), ksshaskpass (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~) | kwin-x11 (>= 4:6.2.90~), kwrited (>= 4:6.2.90~), libkf6kcmutils-bin, libpam-kwallet5 (>= 6.2.90~), plasma-browser-integration (>= 6.2.90~), plasma-desktop-doc (>= 4:6.3.6-1+tjm2), plasma-discover (>= 6.2.90~), plasma-disks (>= 6.2.90~), plasma-firewall (>= 6.2.90~), plasma-nm (>= 4:6.2.90~), plasma-pa (>= 4:6.2.90~), plasma-systemmonitor (>= 6.2.90~), plasma-thunderbolt (>= 6.2.90~), plasma-vault (>= 6.2.90~), plasma-welcome (>= 6.2.90~), plasma5-integration (>= 6.2.90~), powerdevil (>= 4:6.2.90~), systemsettings (>= 4:6.2.90~), xdg-desktop-portal-gtk, xdg-desktop-portal-kde (>= 6.2.90~)
 Suggests: kde-config-flatpak (>= 6.2.90~), plasma-theme-oxygen
 Breaks: plasma-desktop-data (<< 4:6.3.2-3~), plasma-workspace (<< 4:6.1.0~), user-manager (<< 4:5.20)
 Replaces: plasma-desktop-data (<< 4:6.3.2-3~), plasma-workspace (<< 4:6.1.0~)
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-desktop/plasma-desktop_6.3.6-1+tjm1_arm64.deb
-Size: 1454080
-SHA256: 4652860b6915fe7ca27fd653c9b3111a5447bf3288878852beafb5beef2183cd
-SHA1: 803d29574ddcc1c3cfe50145dd188cac41ef4fb3
-MD5sum: eaf1f3dda6bce088a50b44f57ffde68d
+Filename: pool/main/p/plasma-desktop/plasma-desktop_6.3.6-1+tjm2_arm64.deb
+Size: 1432776
+SHA256: bd9a0c2f1898ab2281690187950f8fd6c1a94772154d9888cb15f186e91bca7d
+SHA1: 9dacdcd53553e7c112d059ae713c922b53f32104
+MD5sum: f85fa952ecf4ed7ab7847cbf4b36784a
 Description: Tools and widgets for the desktop
  Plasma Desktop offers a beautiful looking desktop
  that takes complete advantage of modern computing technology.
@@ -406,7 +406,7 @@ Description: Tools and widgets for the desktop
 
 Package: plasma-desktop-data
 Source: plasma-desktop
-Version: 4:6.3.6-1+tjm1
+Version: 4:6.3.6-1+tjm2
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 22591
@@ -416,11 +416,11 @@ Replaces: plasma-widgets-addons (<< 4:5.25.70~)
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-desktop/plasma-desktop-data_6.3.6-1+tjm1_all.deb
-Size: 10765376
-SHA256: d42c1997d04f32601f4b4be4935f68cc58c70393aa51bee4fc8fc6eb9cc00db8
-SHA1: a0c72a2b163a0d0cf81a944001c9c6cf4a03c3fe
-MD5sum: b3b7415bd50804222437b68f23bd5756
+Filename: pool/main/p/plasma-desktop/plasma-desktop-data_6.3.6-1+tjm2_all.deb
+Size: 10765332
+SHA256: 4ff05997f8c6a170887eca2fb9e03da4822c541ae806f7c86fcde0fb48c07910
+SHA1: 9d9a3b66a09c65328df3efbd4c2bec1dd6b86947
+MD5sum: 6b59d73a26851e31dc069048d6b75abd
 Description: Tools and widgets for the desktop data files
  Plasma Desktop offers a beautiful looking desktop
  that takes complete advantage of modern computing technology.
@@ -436,36 +436,36 @@ Description: Tools and widgets for the desktop data files
 
 Package: plasma-desktop-dbgsym
 Source: plasma-desktop
-Version: 4:6.3.6-1+tjm1
+Version: 4:6.3.6-1+tjm2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 48127
-Depends: plasma-desktop (= 4:6.3.6-1+tjm1)
+Installed-Size: 49347
+Depends: plasma-desktop (= 4:6.3.6-1+tjm2)
 Priority: optional
 Section: debug
-Filename: pool/main/p/plasma-desktop/plasma-desktop-dbgsym_6.3.6-1+tjm1_arm64.deb
-Size: 45731912
-SHA256: 70eb3e3594ba5fe8c68225818299490d5fd6167cb54f3322bee0563dc3c61950
-SHA1: c0773babda35971368d5ce991bb2b6856b5aafbb
-MD5sum: 2e16ad5e297467f30a2806ec9b7314fc
+Filename: pool/main/p/plasma-desktop/plasma-desktop-dbgsym_6.3.6-1+tjm2_arm64.deb
+Size: 46969572
+SHA256: ffd2e2c6d17fc9cda5346e3b48d9b6b6693bcbbd8601a64965a0f92b6e17880d
+SHA1: abadb69008288171dac671fe392f7de40f168393
+MD5sum: 8f7f93152621d2c54de134604280dcac
 Description: debug symbols for plasma-desktop
-Build-Ids: 041fe3df3182f43f13413d836fe6d603e9c4c1ae 08bf52ede71168b9f0c1e4c6673b09cb44a8293a 0f76cca90503f5781e80c93257f17f80ac95f833 14d8abe66c54b426027023975538941ba7ef2b7d 1533f74efb95d48f922f8987d07e48f7ed149209 1af37569701714657ca3d974248891ccaf4142a3 1b8debbc1bec816528a9356c11d88eb6693e329f 1cc4ef679795441df4f3d3912ca083d37a11949f 20654e32115c7c737ceb45f0b4396262654e9c1e 208fdf04f80c52a6f8d93d1e762aaedb392546aa 25a64e7b61fd6176d2ffbbb4f11646984ff0998c 34da10785fc073e55e55fa777847710110f1efda 365e210491295cdb719322265138e66c980c73f9 3db50197fdc0364f33af719669b3a3566dfff9cf 4460950e2165fd06ef3d368c891fadec3c59e95e 4cb6ccca7eb84f4ff3b182cfcda8cbb9295f7b69 50537223938f4ee9b708d63a2e7dfbcf12b7d848 583bacda8a8896c8b08a86ac827700abaf4d6c9d 6685dc5bf92d253c5cbb97b6069970007a42bc5b 69cb35f7947738a8a153d036d69515309bf304ba 6dbfba814a6af54b66e2617e521b267955e15283 6ea2598d9e8ac3b8f2e418a4a7aa7e80fe49fd60 6fea4febe5821727cc5daf01a4b9d8443c17062a 716be7adf1932e503df54fd36c6896157365cc8b 7c12ea0fba54ee41838465b9bd725be12813bf83 801e806f803d15c84def377b8ec7a41a6f839d05 8032581f89eaf9e98c67e09797581474e2994c68 82a8f2651517044fc23d7646391e4dde8e151ba1 83cab608887854d603c0e89146485ff31f408fb3 893203543f565196d557f0bc5ecbeed17de7f298 93404754e81a58a39f46179e5f5a648bb458cbda 937cd64bdbe9d0e5b3c21c5a2f6345a074902029 96acc7aaa7ff76dbcca611bcd2e336dd9acdef68 9f5ffd51e94b4f56da562fa693234ffbc9a6baae a4cd225611299888c4f3e44741431763e96037c8 a9ff1a7209f97d715a28cb527eaa775c5a84bef7 ac1fc71b855062c053a9591170473478def698be ae7841decca7c2b02d448a4977b8139de33cdb20 b516c1b9db7d8d2fe53f7ad5622e1f85c7680785 b731e80048832d4894e5c63648d8954ef33c4625 b872c9e643b72b75d1480a4070521bde1c109fa5 b9a513686f83f992c776542fd149c04aae044930 d011765572d04a147bf514902f33e0ff26cd9a5a d1f2b9c488ddbdde4fc00a0dc4e9be57112f8252 da2b2f18ed1eda02b2fa319e42fc1155a469f7ce ddb58a27dd9177202ebf883030b84fa7abeee203 dfcfcb125e5c34630704aea667cab9c7102984d3 e27377a909def64edead42a1205ce4fd9c067528 e31ddba75156d8d419f21320fc32314cbb9453e1 e8fb84defca94d4130f0b3b0270264329f139178 f8089b9e076ac09fbd7f1d84e93383d8d49895ff
+Build-Ids: 0231ec1030989c4810d1ed46236d2405a2fdbf11 1659fd17469473296fe84a5b8867aa2da2e1cf11 17601fe7473b50b90a943fa369bd0847b12988e6 22a1842f77a4efefb70355d109fd00f3a65d8989 2517edc466d4c5b54f141e7a5863633980a5da52 283434b47324d0856bc960f2925fbb30851a8424 2f9d1cfdbed4f3a5b36c0501431abf7bab88ef0a 30133ef7913ce01d148f75f0afed92ef9b2ae003 34e3b7a5e7a137b03ab4911f1e02370db781e349 39b3ea8133cc492b0968a4fca7a981c876c4a824 3a2ed5d2085ca5101b865b7f62d221a8455e8372 3b738fd5f23b1ee5fbc671ddce6dcf6d79d1874a 3db8d5f2d813fd4c283d43f902ae97c67fcadf3c 402fe4f198ef8be7a7b404c1e5d72461d501291c 49a5271db63c58aa2a0283c76e0690558c41310d 4c449d3031332941a53c73c1ddaa065f85254449 4d19c681e78cc2b6662cec2ea4fd5777aeb85780 62562166c536f15006177663f619ab1f866cd860 68c78ce18ee14818e14f5dd48f0a36f52c4799ec 6f1905af1db4c1adb83c619513d869d542b23c83 73a90454192d881b0a13a209b87f9706c860f149 7c22924927153fbbe3a7cf126cb26e0d580df145 7cc50df0083cb8c5875876d85934f1df661f8e0a 8096f183b8abe68d78dec8b48ea9c18fd85f950a 87f002216f5ee98acebc7baf693c0cfec1916331 8a97525f6cb26857c31f26ff9753c88bca793840 8b084e44a5293bf337e63fdc5a479f40f7a5f845 8df124bf04b504f3afbdc9f5ff3d134bc8a18196 91068415d712cb6d25359fa9b352bc12434b5a86 95cde13ab17076a55f117f9211743a4b890847ff 9609c1f0f22fb46ac077385568c3ea4365f91d3c 9f66bd91f1f705d9cf7cf752b33930b1ea2cf8a3 a442261f7a2e63ef11c3ad37c6b9ad880419ebb1 a72563ecb062b6b9e6d137fcca238b576f8908b2 a7387b4ab838587d3d5c424852c4f1643d1c4ab0 a8b4927241aa69bf8d1a9724b0ed83ff0d1beabf ad1b81a86f7a5e02b4e1ecc6ff059fe7dc819772 adf08357787e64ec95965afddcf5327a8a05be44 b1409ab6fd8a33a79ffc64b344ebc3b03e04431b bad4c49e2565e105e8297d30131d7ba412c8fdcf bc91b638bc64be3c17a9ca565a1fc4fae947325b bd02e10aa6918a1fef2ca12c08457f930f416800 c167c654e09040967488fa5b0841675e7b2581a7 c5319a8bc0c353b44edf92c878ec259ea81b556c ce1b7c25862e99d8770379bfa6a3f84144f7ea25 cfd88054225b292baa768cbb5f9d4ec68ab883b1 e2bae887af69b7e5870d5b97413897a397c8ae0c e3db00035e9de35c70987a3573b1865e8436c4c9 f83311f68cc9e49be78b99a93db54d6af69b434b fb1bd8648098d4ff497438f58229a510b78f634b fd05489a25142cca6c517a518cf715ae282e8327
 
 Package: plasma-desktop-dev
 Source: plasma-desktop
-Version: 4:6.3.6-1+tjm1
+Version: 4:6.3.6-1+tjm2
 Architecture: arm64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 54
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Priority: optional
 Section: devel
-Filename: pool/main/p/plasma-desktop/plasma-desktop-dev_6.3.6-1+tjm1_arm64.deb
-Size: 18368
-SHA256: bb18455e04c461028b281f68097b2032e7517b95670044dd7c36f6b1272b1b82
-SHA1: 20297be7e863c1b6f3c7cbcd4b3760f3fbff13c5
-MD5sum: fd8074d42f0de9581d4b1707f5e3c315
+Filename: pool/main/p/plasma-desktop/plasma-desktop-dev_6.3.6-1+tjm2_arm64.deb
+Size: 18408
+SHA256: f71a688fd7c5d3d469c05c5f3c9dcc17aa73bfc997e9f52c3305e4860110eb30
+SHA1: 3dcf2d59e922f8e8fb119a18ecef9a5ec264e59e
+MD5sum: 5823509d2121ceb1e007a6de86267c86
 Description: Tools and widgets for the desktop
  Plasma Desktop offers a beautiful looking desktop
  that takes complete advantage of modern computing technology.
@@ -481,7 +481,7 @@ Description: Tools and widgets for the desktop
 
 Package: plasma-desktop-doc
 Source: plasma-desktop
-Version: 4:6.3.6-1+tjm1
+Version: 4:6.3.6-1+tjm2
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 7277
@@ -490,11 +490,11 @@ Replaces: plasma-desktop-data (<< 4:6.1.90~)
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Priority: optional
 Section: doc
-Filename: pool/main/p/plasma-desktop/plasma-desktop-doc_6.3.6-1+tjm1_all.deb
-Size: 4802020
-SHA256: 9a81bb3ada1c476cf791c550da3e29d1da221bb75c872a227f77b081fc41a30a
-SHA1: 28aa9bcb1ad5ef3b28d59e1d3ef2aff5c4d353ac
-MD5sum: 2d7f5ee9d6c9f872966d29ea37a22da0
+Filename: pool/main/p/plasma-desktop/plasma-desktop-doc_6.3.6-1+tjm2_all.deb
+Size: 4802024
+SHA256: d165fbe8e89c9b3e3760ff84e2030a951b08f4bf4a1ba39e795f3e78dd6d474f
+SHA1: 1636a97ca953763f3a9ae0718ff3d0a55c20937a
+MD5sum: 4b31d7d139df991460b79477ffab5a56
 Description: Plasma desktop documentation
  Plasma Desktop offers a beautiful looking desktop
  that takes complete advantage of modern computing technology.
@@ -510,7 +510,7 @@ Description: Plasma desktop documentation
 
 Package: sddm-theme-breeze
 Source: plasma-desktop
-Version: 4:6.3.6-1+tjm1
+Version: 4:6.3.6-1+tjm2
 Architecture: arm64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 641
@@ -520,11 +520,11 @@ Provides: sddm-theme
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-desktop/sddm-theme-breeze_6.3.6-1+tjm1_arm64.deb
-Size: 582652
-SHA256: 2370f51b94afe3e90ecb3e92b3e94a93883dcf08db72df161ec268757202385a
-SHA1: 5a9ba2d10c031628a9ae70fd2b60431d421b54be
-MD5sum: 5ce083d6bf83af0a1bb1d9d3d9fca759
+Filename: pool/main/p/plasma-desktop/sddm-theme-breeze_6.3.6-1+tjm2_arm64.deb
+Size: 582680
+SHA256: 3c7b59346345e962e1a465cf608b8968e66a12e3b357b42e91c78c9d46a090c8
+SHA1: 75347aeaafb0524862ce44be8e339ce91e077c21
+MD5sum: 5ecf1346507d404693ea281488fd6dd3
 Description: Breeze SDDM theme
  Plasma Workspace for KF6. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -535,7 +535,7 @@ Description: Breeze SDDM theme
 
 Package: sddm-theme-debian-breeze
 Source: plasma-desktop
-Version: 4:6.3.6-1+tjm1
+Version: 4:6.3.6-1+tjm2
 Architecture: arm64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 208
@@ -545,11 +545,11 @@ Provides: sddm-theme
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-desktop/sddm-theme-debian-breeze_6.3.6-1+tjm1_arm64.deb
-Size: 148680
-SHA256: 60eec03de8146408d1cba3e9ce21efaa2651bfaf4257f6150eda81cda0f18d26
-SHA1: 09703cb88466fa7c595f7501badcec3905a9e8b8
-MD5sum: f79b896f4e84eb94be8b60488e5aab79
+Filename: pool/main/p/plasma-desktop/sddm-theme-debian-breeze_6.3.6-1+tjm2_arm64.deb
+Size: 148724
+SHA256: 3499f71a372c89ac074815fa7e9a859d62b8fb02d3397f1e5546c3393f4e8c8b
+SHA1: 0d817bc847c3f368b4e35a69a2d03b404e74ddca
+MD5sum: fd2f10af3548fd472bef14d6cd0c7c0e
 Description: Debian Breeze SDDM theme
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
