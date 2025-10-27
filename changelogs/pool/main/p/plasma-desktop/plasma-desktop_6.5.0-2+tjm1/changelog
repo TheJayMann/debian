@@ -1,8 +1,35 @@
-plasma-desktop (4:6.3.6-1+tjm1) unstable; urgency=medium
+plasma-desktop (4:6.5.0-2+tjm1) unstable; urgency=medium
 
-  * Remove scim
+  * Remove scim dependency
 
- -- TheJayMann <736769+TheJayMann@users.noreply.github.com>  Sun, 07 Sep 2025 16:53:48 -0400
+ -- TheJayMann <736769+TheJayMann@users.noreply.github.com>  Mon, 27 Oct 2025 07:19:42 -0400
+
+plasma-desktop (4:6.5.0-2) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Drop custom build flags causing FTBFS on armel and armhf.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 22 Oct 2025 11:51:45 +0200
+
+plasma-desktop (4:6.5.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.5.0).
+  * Update build-deps and deps with the info from cmake.
+  * Refresh copyright information.
+  * Release to unstable.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 16 Oct 2025 22:04:38 +0200
+
+plasma-desktop (4:6.4.91-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.4.91).
+  * Update build-deps and deps with the info from cmake.
+  * Package new libkglobalaccelmodel library.
+  * Drop Rules-Requires-Root: no, not needed anymore since trixie.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 05 Oct 2025 12:28:58 +0200
 
 plasma-desktop (4:6.3.6-1) unstable; urgency=medium
 
