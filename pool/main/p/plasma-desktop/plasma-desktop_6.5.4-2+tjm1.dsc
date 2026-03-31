@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: plasma-desktop
 Binary: libkglobalaccelmodel6, plasma-desktop, plasma-desktop-data, plasma-desktop-doc, plasma-desktop-dev, sddm-theme-breeze, sddm-theme-debian-breeze
 Architecture: any all
-Version: 4:6.5.4-2tjm1
+Version: 4:6.5.4-2+tjm1
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Aurélien COUDERC <coucouf@debian.org>, Patrick Franz <deltaone@debian.org>, Scarlett Moore <sgmoore@kde.org>
 Homepage: https://invent.kde.org/plasma/plasma-desktop
@@ -20,10 +20,10 @@ Package-List:
  sddm-theme-debian-breeze deb kde optional arch=any
 Checksums-Sha1:
  823d08944d10bba3202881550817c492cb927408 16755512 plasma-desktop_6.5.4.orig.tar.xz
- 86f7c6c1d60fb58a6bdc72d0aaf5e5d5f084530c 161456 plasma-desktop_6.5.4-2tjm1.debian.tar.xz
+ 09b5f517debe22a434f7879944634a22f9ef612e 161428 plasma-desktop_6.5.4-2+tjm1.debian.tar.xz
 Checksums-Sha256:
  e08d1841adfa374af1001c86604a4bf2f0d5a2230fe1f2c925db61cd984b8c0c 16755512 plasma-desktop_6.5.4.orig.tar.xz
- 05a60cb23cac96dc0295728213a6e6051e49fa2eae794730bbfbc2df2d005eb9 161456 plasma-desktop_6.5.4-2tjm1.debian.tar.xz
+ 0d6ad0b91e8082b0b7c1b4ad7af23be7a06929924488d5ba210af90fe29796c6 161428 plasma-desktop_6.5.4-2+tjm1.debian.tar.xz
 Files:
  bf691b719c6bf9febff9452fd511b4dd 16755512 plasma-desktop_6.5.4.orig.tar.xz
- b38f4397d68258902706a6bf0be44ec0 161456 plasma-desktop_6.5.4-2tjm1.debian.tar.xz
+ 9b9c7776fe39f217710d1474925e4db8 161428 plasma-desktop_6.5.4-2+tjm1.debian.tar.xz

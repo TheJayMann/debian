@@ -449,7 +449,7 @@ Description: Tools and widgets for the desktop
 
 Package: plasma-desktop-data
 Source: plasma-desktop
-Version: 4:6.5.4-2tjm1
+Version: 4:6.5.4-2+tjm1
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 22238
@@ -459,11 +459,11 @@ Replaces: plasma-widgets-addons (<< 4:5.25.70~)
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-desktop/plasma-desktop-data_6.5.4-2tjm1_all.deb
-Size: 10735760
-SHA256: aec9254ef4859f2538422aab5a6c29973c654b7c4eb3c62b2e79504efa773a2c
-SHA1: f14f4fb31926c213176a696f07069d5c35043899
-MD5sum: 8ab6be1cb29cba52d46a8fd91a719cd4
+Filename: pool/main/p/plasma-desktop/plasma-desktop-data_6.5.4-2+tjm1_all.deb
+Size: 10736372
+SHA256: e6b9e0105857dd090079eccb3a26268a852d4039a5c84094e63f50ca3699f7f4
+SHA1: 743c06241203031acf427cf3e9b4f82f96a111e1
+MD5sum: 1d2db13114a547a0c69aba2772831f80
 Description: Tools and widgets for the desktop data files
  Plasma Desktop offers a beautiful looking desktop
  that takes complete advantage of modern computing technology.
@@ -524,7 +524,7 @@ Description: Tools and widgets for the desktop
 
 Package: plasma-desktop-doc
 Source: plasma-desktop
-Version: 4:6.5.4-2tjm1
+Version: 4:6.5.4-2+tjm1
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 7194
@@ -533,11 +533,11 @@ Replaces: plasma-desktop-data (<< 4:6.1.90~)
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Priority: optional
 Section: doc
-Filename: pool/main/p/plasma-desktop/plasma-desktop-doc_6.5.4-2tjm1_all.deb
-Size: 4771952
-SHA256: 820f352134b5e789bde2220ed2658525fe54f598cd47f2e1ad5bdde44f3446d7
-SHA1: a2e41269da20a9c3027cfa5808489621d3577a29
-MD5sum: af4f4dce82522382d54fcfaf6841a9a7
+Filename: pool/main/p/plasma-desktop/plasma-desktop-doc_6.5.4-2+tjm1_all.deb
+Size: 4771992
+SHA256: 4cc608f0a1a11aa9be1bdc1a45f85e2e6b363237eca8480b5842103949fc1ea8
+SHA1: 9057ea524bd5bb107f1a805bc4f30f3d2d162b0b
+MD5sum: 962c6e4b89ceff8bc7faddbc7408f003
 Description: Plasma desktop documentation
  Plasma Desktop offers a beautiful looking desktop
  that takes complete advantage of modern computing technology.

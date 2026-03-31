@@ -1,4 +1,4 @@
-plasma-desktop (4:6.5.4-2tjm1) unstable; urgency=medium
+plasma-desktop (4:6.5.4-2+tjm1) unstable; urgency=medium
 
   * Remove scim dependency
 
