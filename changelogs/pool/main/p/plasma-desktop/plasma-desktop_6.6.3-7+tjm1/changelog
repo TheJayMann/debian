@@ -1,8 +1,80 @@
-plasma-desktop (4:6.5.4-2+tjm1) unstable; urgency=medium
+plasma-desktop (4:6.6.3-7+tjm1) unstable; urgency=medium
 
   * Remove scim dependency
 
- -- TheJayMann <736769+TheJayMann@users.noreply.github.com>  Sat, 07 Feb 2026 11:15:23 -0500
+ -- TheJayMann <736769+TheJayMann@users.noreply.github.com>  Thu, 09 Apr 2026 22:04:59 -0400
+
+plasma-desktop (4:6.6.3-7) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * Remove explicit dependency on plasma- desktoptheme
+    from sddm-theme-* (QML deps are detected via dh_qmldeps).
+  * Mark sddm-theme to enhances sddm.
+  * Remove recommends on sddm for sddm-themes as they depend on sddm.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 08 Apr 2026 22:07:45 +0200
+
+plasma-desktop (4:6.6.3-6) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Drop plasma-workspace dependency from SDDM themes, we now pull
+    enough QML modules automatically that this shouldn’t be needed
+    anymore.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 08 Apr 2026 21:49:45 +0200
+
+plasma-desktop (4:6.6.3-5) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Add missing build deps for detecting QML runtime dependencies.
+  * Release to unstable.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 07 Apr 2026 09:00:30 +0200
+
+plasma-desktop (4:6.6.3-4) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Add multi-arch hints.
+  * Track qml dependencies for all qml files in plasma-desktop.
+  * Add missing QML modules to B-D.
+
+ -- Sandro Knauß <hefee@debian.org>  Sun, 05 Apr 2026 08:54:31 +0200
+
+plasma-desktop (4:6.6.3-3) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Drop Recommends: plasma5-integration.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 03 Apr 2026 17:20:39 +0200
+
+plasma-desktop (4:6.6.3-2) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Fix execute_after_dh_fixperms-arch target in this package that
+    builds multiple binaries.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 03 Apr 2026 14:39:09 +0200
+
+plasma-desktop (4:6.6.3-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.6.1).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.7.3, no change required.
+  * Drop Priority: optional, not needed anymore since dpkg 1.22.13.
+  * Update symbols from build for 6.6.1.
+  * New upstream release (6.6.3).
+  * Update build-deps and deps with the info from cmake.
+  * Switch to declarative dh-sequence-qmldeps for runtime QML
+    dependencies management.
+  * Refresh copyright information.
+  * Drop executable bit from desktop file.
+  * Use dh-sequence-plasma to inject common base version dependency into
+    binary packages.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 25 Mar 2026 23:56:59 +0100
 
 plasma-desktop (4:6.5.4-2) unstable; urgency=medium
 
