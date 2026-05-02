@@ -1,8 +1,17 @@
-plasma-desktop (4:6.6.3-7+tjm1) unstable; urgency=medium
+plasma-desktop (4:6.6.4-1+tjm1) unstable; urgency=medium
 
   * Remove scim dependency
 
- -- TheJayMann <736769+TheJayMann@users.noreply.github.com>  Thu, 09 Apr 2026 22:04:59 -0400
+ -- TheJayMann <736769+TheJayMann@users.noreply.github.com>  Fri, 01 May 2026 18:02:03 -0400
+
+plasma-desktop (4:6.6.4-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.6.4).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.7.4, no change required.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 26 Apr 2026 10:28:50 +0200
 
 plasma-desktop (4:6.6.3-7) unstable; urgency=medium
 
